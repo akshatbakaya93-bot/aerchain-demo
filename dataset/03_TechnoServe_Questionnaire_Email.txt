@@ -1,0 +1,17 @@
+From: sales@technoserve.co.in
+To: procurement@acme-computing.in
+Subject: RE: RFQ-2026-CP-114 — Vendor Questionnaire
+
+Dear Procurement Team,
+
+Please find our responses to your qualification questionnaire below:
+
+1. Are you ISO 9001 certified? -> Yes, ISO 9001:2015 (valid till Aug 2027).
+2. Authorised reseller status? -> Yes, for Intel, ASUS, Samsung. Others via authorised distributors.
+3. Average delivery lead time? -> 2 to 3 weeks.
+4. Payment terms offered? -> 50% advance, 50% on delivery.
+5. Do you provide onsite warranty support in Bangalore? -> Yes, for monitors and CPUs.
+6. Annual turnover? -> Rs 42 Crore (FY 2024-25).
+
+Regards,
+Ramesh K, TechnoServe Solutions

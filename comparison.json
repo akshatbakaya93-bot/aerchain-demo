@@ -1,0 +1,3810 @@
+{
+  "generated_at": "2026-09-25T22:39:51",
+  "assumptions": {
+    "usd_to_inr": 83.5,
+    "gst_rate": 0.18,
+    "min_mapping_confidence": 0.6,
+    "precedence": "handwritten correction > revised > later-dated > dataset file order"
+  },
+  "lines": {
+    "L01": {
+      "category": "CPU",
+      "description": "Intel Core i5-13400 Processor",
+      "required_qty": 20,
+      "unit": "unit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 18320.0,
+          "unit_price_inr_as_quoted": 18320.0,
+          "original_price": 18320,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Intel Core i5-13400 Processor.",
+          "vendor_description": "Intel Core i5-13400 Processor",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "1\tIntel Core i5-13400 Processor\t20\t18320\t366400",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 19423.73,
+          "unit_price_inr_as_quoted": 22920.0,
+          "original_price": 22920,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Intel Core i5-13400 Processor.",
+          "vendor_description": "Intel Core i5-13400 Processor",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "1 Intel Core i5-13400 Processor 20 22,920",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 18870.17,
+          "unit_price_inr_as_quoted": 18870.17,
+          "original_price": 225.99,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Intel Core i5-13400 Processor.",
+          "vendor_description": "Intel Core i5-13400 Processor",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "Intel Core i5-13400 Processor\t20\t225.99",
+          "flags": [
+            "Converted from USD 225.99 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 17940.0,
+          "unit_price_inr_as_quoted": 17940.0,
+          "original_price": 17940,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Intel Core i5-13400.",
+          "vendor_description": "Intel Core i5-13400 Processor",
+          "vendor_unit": null,
+          "source_file": "09_RapidParts_Email.txt",
+          "source_snippet": "Intel Core i5-13400 Processor: Rs 17,940 each",
+          "flags": [
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": "not quoted",
+        "SouthTech Enterprises": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 17600.0,
+          "unit_price_inr_as_quoted": 17600.0,
+          "original_price": 17600,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.7,
+          "extraction_confidence": 0.7,
+          "mapping_confidence": 0.95,
+          "mapping_reason": "i5-13400 tier for 16+ units applies to required qty of 20.",
+          "vendor_description": "Intel Core i5-13400",
+          "vendor_unit": "unit",
+          "source_file": "14_SouthTech_Quote.docx",
+          "source_snippet": "Rs 17,600 per unit for 16 units and above",
+          "flags": [
+            "Vendor line note: Tiered pricing: this rate applies for orders of 16 units or more; base rate up to 15 units is Rs 18,200 (see separate line)."
+          ],
+          "superseded": [],
+          "alternatives": [
+            {
+              "vendor_description": "Intel Core i5-13400",
+              "unit_price": 18200,
+              "source_file": "14_SouthTech_Quote.docx",
+              "source_snippet": "the Intel Core i5-13400 is offered at Rs 18,200 per unit for orders up to 15 units",
+              "applies_to_required_qty": false
+            }
+          ]
+        }
+      }
+    },
+    "L02": {
+      "category": "CPU",
+      "description": "Intel Core i7-13700 Processor",
+      "required_qty": 10,
+      "unit": "unit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 31680.0,
+          "unit_price_inr_as_quoted": 31680.0,
+          "original_price": 31680,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Intel Core i7-13700 Processor.",
+          "vendor_description": "Intel Core i7-13700 Processor",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "2\tIntel Core i7-13700 Processor\t10\t31680\t316800",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 33601.69,
+          "unit_price_inr_as_quoted": 39650.0,
+          "original_price": 39650,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Intel Core i7-13700 Processor.",
+          "vendor_description": "Intel Core i7-13700 Processor",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "2 Intel Core i7-13700 Processor 10 39,650",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 32640.15,
+          "unit_price_inr_as_quoted": 32640.15,
+          "original_price": 390.9,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Intel Core i7-13700 Processor.",
+          "vendor_description": "Intel Core i7-13700 Processor",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "Intel Core i7-13700 Processor\t10\t390.9",
+          "flags": [
+            "Converted from USD 390.9 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 31360.0,
+          "unit_price_inr_as_quoted": 31360.0,
+          "original_price": 31360,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Intel Core i7-13700.",
+          "vendor_description": "Intel Core i7-13700 Processor",
+          "vendor_unit": null,
+          "source_file": "09_RapidParts_Email.txt",
+          "source_snippet": "Intel Core i7-13700 Processor: Rs 31,360",
+          "flags": [
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": "not quoted",
+        "SouthTech Enterprises": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 31500.0,
+          "unit_price_inr_as_quoted": 31500.0,
+          "original_price": 31500,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 0.97,
+          "mapping_reason": "Direct match to Intel Core i7-13700.",
+          "vendor_description": "Intel Core i7-13700",
+          "vendor_unit": "each",
+          "source_file": "14_SouthTech_Quote.docx",
+          "source_snippet": "The Intel Core i7-13700 is Rs 31,500 each.",
+          "flags": [],
+          "superseded": [],
+          "alternatives": []
+        }
+      }
+    },
+    "L03": {
+      "category": "CPU",
+      "description": "AMD Ryzen 5 7600 Processor",
+      "required_qty": 15,
+      "unit": "unit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 20300.0,
+          "unit_price_inr_as_quoted": 20300.0,
+          "original_price": 20300,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to AMD Ryzen 5 7600 Processor.",
+          "vendor_description": "AMD Ryzen 5 7600 Processor",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "3\tAMD Ryzen 5 7600 Processor\t15\t20300\t304500",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 21516.95,
+          "unit_price_inr_as_quoted": 25390.0,
+          "original_price": 25390,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to AMD Ryzen 5 7600 Processor.",
+          "vendor_description": "AMD Ryzen 5 7600 Processor",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "3 AMD Ryzen 5 7600 Processor 15 25,390",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 20910.07,
+          "unit_price_inr_as_quoted": 20910.07,
+          "original_price": 250.42,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to AMD Ryzen 5 7600 Processor.",
+          "vendor_description": "AMD Ryzen 5 7600 Processor",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "AMD Ryzen 5 7600 Processor\t15\t250.42",
+          "flags": [
+            "Converted from USD 250.42 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 20090.0,
+          "unit_price_inr_as_quoted": 20090.0,
+          "original_price": 20090,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to AMD Ryzen 5 7600.",
+          "vendor_description": "AMD Ryzen 5 7600 Processor",
+          "vendor_unit": null,
+          "source_file": "09_RapidParts_Email.txt",
+          "source_snippet": "AMD Ryzen 5 7600 Processor: Rs 20,090",
+          "flags": [
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": "not quoted",
+        "SouthTech Enterprises": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 20000.0,
+          "unit_price_inr_as_quoted": 20000.0,
+          "original_price": 20000,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 0.97,
+          "mapping_reason": "Direct match to AMD Ryzen 5 7600.",
+          "vendor_description": "AMD Ryzen 5 7600",
+          "vendor_unit": "piece",
+          "source_file": "14_SouthTech_Quote.docx",
+          "source_snippet": "AMD Ryzen 5 7600 comes to Rs 20,000 a piece.",
+          "flags": [],
+          "superseded": [],
+          "alternatives": []
+        }
+      }
+    },
+    "L04": {
+      "category": "Motherboard",
+      "description": "ASUS PRIME B760M-A Motherboard",
+      "required_qty": 20,
+      "unit": "unit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 12380.0,
+          "unit_price_inr_as_quoted": 12380.0,
+          "original_price": 12380,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to ASUS PRIME B760M-A Motherboard.",
+          "vendor_description": "ASUS PRIME B760M-A Motherboard",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "4\tASUS PRIME B760M-A Motherboard\t20\t12380\t247600",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 13118.64,
+          "unit_price_inr_as_quoted": 15480.0,
+          "original_price": 15480,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to ASUS PRIME B760M-A Motherboard.",
+          "vendor_description": "ASUS PRIME B760M-A Motherboard",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "4 ASUS PRIME B760M-A Motherboard 20 15,480",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 12749.61,
+          "unit_price_inr_as_quoted": 12749.61,
+          "original_price": 152.69,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.85,
+          "extraction_confidence": 0.85,
+          "mapping_confidence": 0.98,
+          "mapping_reason": "PRIME B760M-A matches ASUS PRIME B760M-A Motherboard model name.",
+          "vendor_description": "PRIME B760M-A",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "PRIME B760M-A\t20\t152.69",
+          "flags": [
+            "Converted from USD 152.69 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Vendor line note: Item code only, no descriptive text provided by vendor",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 12250.0,
+          "unit_price_inr_as_quoted": 12250.0,
+          "original_price": 12250,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to ASUS PRIME B760M-A.",
+          "vendor_description": "ASUS PRIME B760M-A Motherboard",
+          "vendor_unit": null,
+          "source_file": "09_RapidParts_Email.txt",
+          "source_snippet": "ASUS PRIME B760M-A Motherboard: Rs 12,250",
+          "flags": [
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": "not quoted",
+        "SouthTech Enterprises": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 12300.0,
+          "unit_price_inr_as_quoted": 12300.0,
+          "original_price": 12300,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 0.97,
+          "mapping_reason": "Direct match to ASUS PRIME B760M-A.",
+          "vendor_description": "ASUS PRIME B760M-A",
+          "vendor_unit": null,
+          "source_file": "14_SouthTech_Quote.docx",
+          "source_snippet": "the ASUS PRIME B760M-A is Rs 12,300",
+          "flags": [],
+          "superseded": [],
+          "alternatives": []
+        }
+      }
+    },
+    "L05": {
+      "category": "Motherboard",
+      "description": "MSI MAG B650 TOMAHAWK Motherboard",
+      "required_qty": 15,
+      "unit": "unit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 20790.0,
+          "unit_price_inr_as_quoted": 20790.0,
+          "original_price": 20790,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to MSI MAG B650 TOMAHAWK Motherboard.",
+          "vendor_description": "MSI MAG B650 TOMAHAWK Motherboard",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "5\tMSI MAG B650 TOMAHAWK Motherboard\t15\t20790\t311850",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 22050.85,
+          "unit_price_inr_as_quoted": 26020.0,
+          "original_price": 26020,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to MSI MAG B650 TOMAHAWK Motherboard.",
+          "vendor_description": "MSI MAG B650 TOMAHAWK Motherboard",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "5 MSI MAG B650 TOMAHAWK Motherboard 15 26,020",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 21420.25,
+          "unit_price_inr_as_quoted": 21420.25,
+          "original_price": 256.53,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.8,
+          "extraction_confidence": 0.8,
+          "mapping_confidence": 0.85,
+          "mapping_reason": "7D75-001R is the MSI part number for the MAG B650 TOMAHAWK motherboard.",
+          "vendor_description": "7D75-001R",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "7D75-001R\t15\t256.53",
+          "flags": [
+            "Converted from USD 256.53 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Vendor line note: Item code only, product identity not clear from description",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 20580.0,
+          "unit_price_inr_as_quoted": 20580.0,
+          "original_price": 20580,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to MSI MAG B650 TOMAHAWK.",
+          "vendor_description": "MSI MAG B650 TOMAHAWK Motherboard",
+          "vendor_unit": null,
+          "source_file": "09_RapidParts_Email.txt",
+          "source_snippet": "MSI MAG B650 TOMAHAWK Motherboard: Rs 20,580",
+          "flags": [
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": "not quoted",
+        "SouthTech Enterprises": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 20600.0,
+          "unit_price_inr_as_quoted": 20600.0,
+          "original_price": 20600,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 0.95,
+          "mapping_reason": "MSI B650 Tomahawk matches MSI MAG B650 TOMAHAWK motherboard.",
+          "vendor_description": "MSI B650 Tomahawk",
+          "vendor_unit": null,
+          "source_file": "14_SouthTech_Quote.docx",
+          "source_snippet": "the MSI B650 Tomahawk is Rs 20,600",
+          "flags": [],
+          "superseded": [],
+          "alternatives": []
+        }
+      }
+    },
+    "L06": {
+      "category": "RAM",
+      "description": "Corsair Vengeance 16GB DDR5 5600MHz (1x16GB)",
+      "required_qty": 40,
+      "unit": "stick",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 4750.0,
+          "unit_price_inr_as_quoted": 4750.0,
+          "original_price": 4750,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Corsair Vengeance 16GB DDR5 5600MHz stick.",
+          "vendor_description": "Corsair Vengeance 16GB DDR5 5600MHz (1x16GB)",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "6\tCorsair Vengeance 16GB DDR5 5600MHz (1x16GB)\t40\t4750\t190000",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 5042.37,
+          "unit_price_inr_as_quoted": 5950.0,
+          "original_price": 5950,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Corsair Vengeance 16GB DDR5 5600MHz single stick.",
+          "vendor_description": "Corsair Vengeance 16GB DDR5 5600MHz (1x16GB)",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "6 Corsair Vengeance 16GB DDR5 5600MHz (1x16GB) 40 5,950",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 4899.78,
+          "unit_price_inr_as_quoted": 4899.78,
+          "original_price": 58.68,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.8,
+          "extraction_confidence": 0.8,
+          "mapping_confidence": 0.9,
+          "mapping_reason": "CMK16GX5M1B5600C36 is Corsair Vengeance DDR5 16GB (1x16GB) 5600MHz module.",
+          "vendor_description": "CMK16GX5M1B5600C36",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "CMK16GX5M1B5600C36\t40\t58.68",
+          "flags": [
+            "Converted from USD 58.68 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Vendor line note: Item code only, likely a Corsair RAM module",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 4700.0,
+          "unit_price_inr_as_quoted": 4700.0,
+          "original_price": 4700,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Corsair Vengeance 16GB DDR5 single stick.",
+          "vendor_description": "Corsair Vengeance 16GB DDR5 5600MHz (1x16GB)",
+          "vendor_unit": null,
+          "source_file": "09_RapidParts_Email.txt",
+          "source_snippet": "Corsair Vengeance 16GB DDR5 5600MHz (1x16GB): Rs 4,700",
+          "flags": [
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": "not quoted",
+        "SouthTech Enterprises": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 4700.0,
+          "unit_price_inr_as_quoted": 4700.0,
+          "original_price": 4700,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.85,
+          "extraction_confidence": 0.85,
+          "mapping_confidence": 0.9,
+          "mapping_reason": "Single stick Corsair Vengeance 16GB DDR5 matches L06's per-stick spec.",
+          "vendor_description": "Corsair Vengeance 16GB DDR5",
+          "vendor_unit": "single stick",
+          "source_file": "14_SouthTech_Quote.docx",
+          "source_snippet": "the Corsair Vengeance 16GB DDR5 stick is Rs 4,700 (note: this is per single stick, not a kit)",
+          "flags": [
+            "Vendor line note: Explicitly noted by vendor as per single stick, not a kit."
+          ],
+          "superseded": [],
+          "alternatives": []
+        }
+      }
+    },
+    "L07": {
+      "category": "RAM",
+      "description": "Corsair Vengeance 32GB DDR5 5600MHz (kit of 2x16GB)",
+      "required_qty": 20,
+      "unit": "kit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 9110.0,
+          "unit_price_inr_as_quoted": 9110.0,
+          "original_price": 9110,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Corsair Vengeance 32GB DDR5 5600MHz kit.",
+          "vendor_description": "Corsair Vengeance 32GB DDR5 5600MHz (kit of 2x16GB)",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "7\tCorsair Vengeance 32GB DDR5 5600MHz (kit of 2x16GB)\t20\t9110\t182200",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 9661.02,
+          "unit_price_inr_as_quoted": 11400.0,
+          "original_price": 11400,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Corsair Vengeance 32GB DDR5 5600MHz kit.",
+          "vendor_description": "Corsair Vengeance 32GB DDR5 5600MHz (kit of 2x16GB)",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "7 Corsair Vengeance 32GB DDR5 5600MHz (kit of 2x16GB) 20 11,400",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 9380.39,
+          "unit_price_inr_as_quoted": 9380.39,
+          "original_price": 112.34,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.8,
+          "extraction_confidence": 0.8,
+          "mapping_confidence": 0.9,
+          "mapping_reason": "CMK32GX5M2B5600C36 is Corsair Vengeance DDR5 32GB (2x16GB) 5600MHz kit.",
+          "vendor_description": "CMK32GX5M2B5600C36",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "CMK32GX5M2B5600C36\t20\t112.34",
+          "flags": [
+            "Converted from USD 112.34 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Vendor line note: Item code only, likely a Corsair RAM kit",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 9020.0,
+          "unit_price_inr_as_quoted": 9020.0,
+          "original_price": 9020,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Corsair Vengeance 32GB DDR5 kit.",
+          "vendor_description": "Corsair Vengeance 32GB DDR5 5600MHz (kit of 2x16GB)",
+          "vendor_unit": "kit",
+          "source_file": "09_RapidParts_Email.txt",
+          "source_snippet": "Corsair Vengeance 32GB DDR5 5600MHz (kit of 2x16GB): Rs 9,020",
+          "flags": [
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": "not quoted",
+        "SouthTech Enterprises": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 9000.0,
+          "unit_price_inr_as_quoted": 9000.0,
+          "original_price": 9000,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.75,
+          "extraction_confidence": 0.75,
+          "mapping_confidence": 0.85,
+          "mapping_reason": "32GB kit matches Corsair Vengeance 32GB DDR5 kit description.",
+          "vendor_description": "Corsair Vengeance 32GB (kit)",
+          "vendor_unit": "kit",
+          "source_file": "14_SouthTech_Quote.docx",
+          "source_snippet": "the 32GB kit is Rs 9,000",
+          "flags": [
+            "Vendor line note: Product line/series (Corsair Vengeance) inferred from preceding sentence context; not explicitly restated."
+          ],
+          "superseded": [],
+          "alternatives": []
+        }
+      }
+    },
+    "L08": {
+      "category": "RAM",
+      "description": "Kingston Fury Beast 16GB DDR4 3200MHz",
+      "required_qty": 30,
+      "unit": "stick",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 3170.0,
+          "unit_price_inr_as_quoted": 3170.0,
+          "original_price": 3170,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Kingston Fury Beast 16GB DDR4 3200MHz.",
+          "vendor_description": "Kingston Fury Beast 16GB DDR4 3200MHz",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "8\tKingston Fury Beast 16GB DDR4 3200MHz\t30\t3170\t95100",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 3355.93,
+          "unit_price_inr_as_quoted": 3960.0,
+          "original_price": 3960,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Kingston Fury Beast 16GB DDR4 3200MHz.",
+          "vendor_description": "Kingston Fury Beast 16GB DDR4 3200MHz",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "8 Kingston Fury Beast 16GB DDR4 3200MHz 30 3,960",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 3259.84,
+          "unit_price_inr_as_quoted": 3259.84,
+          "original_price": 39.04,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.8,
+          "extraction_confidence": 0.8,
+          "mapping_confidence": 0.88,
+          "mapping_reason": "KF432C16BB/16 is Kingston Fury Beast DDR4 3200MHz 16GB part number.",
+          "vendor_description": "KF432C16BB/16",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "KF432C16BB/16\t30\t39.04",
+          "flags": [
+            "Converted from USD 39.04 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Vendor line note: Item code only, likely a Kingston RAM module",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 3140.0,
+          "unit_price_inr_as_quoted": 3140.0,
+          "original_price": 3140,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Kingston Fury Beast 16GB DDR4.",
+          "vendor_description": "Kingston Fury Beast 16GB DDR4 3200MHz",
+          "vendor_unit": null,
+          "source_file": "09_RapidParts_Email.txt",
+          "source_snippet": "Kingston Fury Beast 16GB DDR4 3200MHz: Rs 3,140",
+          "flags": [
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": "not quoted",
+        "SouthTech Enterprises": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 3100.0,
+          "unit_price_inr_as_quoted": 3100.0,
+          "original_price": 3100,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 0.95,
+          "mapping_reason": "Direct match to Kingston Fury Beast 16GB DDR4.",
+          "vendor_description": "Kingston Fury 16GB DDR4",
+          "vendor_unit": null,
+          "source_file": "14_SouthTech_Quote.docx",
+          "source_snippet": "Kingston Fury 16GB DDR4 is Rs 3,100",
+          "flags": [],
+          "superseded": [],
+          "alternatives": []
+        }
+      }
+    },
+    "L09": {
+      "category": "SSD",
+      "description": "Samsung 970 EVO Plus 1TB NVMe SSD",
+      "required_qty": 30,
+      "unit": "unit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 6440.0,
+          "unit_price_inr_as_quoted": 6440.0,
+          "original_price": 6440,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Samsung 970 EVO Plus 1TB NVMe SSD.",
+          "vendor_description": "Samsung 970 EVO Plus 1TB NVMe SSD",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "9\tSamsung 970 EVO Plus 1TB NVMe SSD\t30\t6440\t193200",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 6822.03,
+          "unit_price_inr_as_quoted": 8050.0,
+          "original_price": 8050,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Samsung 970 EVO Plus 1TB NVMe SSD.",
+          "vendor_description": "Samsung 970 EVO Plus 1TB NVMe SSD",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "9 Samsung 970 EVO Plus 1TB NVMe SSD 30 8,050",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 6629.9,
+          "unit_price_inr_as_quoted": 6629.9,
+          "original_price": 79.4,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.8,
+          "extraction_confidence": 0.8,
+          "mapping_confidence": 0.9,
+          "mapping_reason": "MZ-V7S1T0BW is Samsung 970 EVO Plus 1TB NVMe SSD part number.",
+          "vendor_description": "MZ-V7S1T0BW",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "MZ-V7S1T0BW\t30\t79.4",
+          "flags": [
+            "Converted from USD 79.4 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Vendor line note: Item code only, likely a Samsung SSD",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 6370.0,
+          "unit_price_inr_as_quoted": 6370.0,
+          "original_price": 6370,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Samsung 970 EVO Plus 1TB.",
+          "vendor_description": "Samsung 970 EVO Plus 1TB NVMe SSD",
+          "vendor_unit": null,
+          "source_file": "09_RapidParts_Email.txt",
+          "source_snippet": "Samsung 970 EVO Plus 1TB NVMe SSD: Rs 6,370",
+          "flags": [
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": "not quoted",
+        "SouthTech Enterprises": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 6400.0,
+          "unit_price_inr_as_quoted": 6400.0,
+          "original_price": 6400,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 0.97,
+          "mapping_reason": "Direct match to Samsung 970 EVO Plus 1TB.",
+          "vendor_description": "Samsung 970 EVO Plus 1TB",
+          "vendor_unit": null,
+          "source_file": "14_SouthTech_Quote.docx",
+          "source_snippet": "Samsung 970 EVO Plus 1TB is Rs 6,400",
+          "flags": [],
+          "superseded": [],
+          "alternatives": []
+        }
+      }
+    },
+    "L10": {
+      "category": "SSD",
+      "description": "Samsung 980 PRO 2TB NVMe SSD",
+      "required_qty": 15,
+      "unit": "unit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 15340.0,
+          "unit_price_inr_as_quoted": 15340.0,
+          "original_price": 15340,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Samsung 980 PRO 2TB NVMe SSD.",
+          "vendor_description": "Samsung 980 PRO 2TB NVMe SSD",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "10\tSamsung 980 PRO 2TB NVMe SSD\t15\t15340\t230100",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 16279.66,
+          "unit_price_inr_as_quoted": 19210.0,
+          "original_price": 19210,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Samsung 980 PRO 2TB NVMe SSD.",
+          "vendor_description": "Samsung 980 PRO 2TB NVMe SSD",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "10 Samsung 980 PRO 2TB NVMe SSD 15 19,210",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 15809.89,
+          "unit_price_inr_as_quoted": 15809.89,
+          "original_price": 189.34,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.8,
+          "extraction_confidence": 0.8,
+          "mapping_confidence": 0.9,
+          "mapping_reason": "MZ-V8P2T0BW is Samsung 980 PRO 2TB NVMe SSD part number.",
+          "vendor_description": "MZ-V8P2T0BW",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "MZ-V8P2T0BW\t15\t189.34",
+          "flags": [
+            "Converted from USD 189.34 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Vendor line note: Item code only, likely a Samsung SSD",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 15190.0,
+          "unit_price_inr_as_quoted": 15190.0,
+          "original_price": 15190,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Samsung 980 PRO 2TB.",
+          "vendor_description": "Samsung 980 PRO 2TB NVMe SSD",
+          "vendor_unit": null,
+          "source_file": "09_RapidParts_Email.txt",
+          "source_snippet": "Samsung 980 PRO 2TB NVMe SSD: Rs 15,190",
+          "flags": [
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": "not quoted",
+        "SouthTech Enterprises": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 15200.0,
+          "unit_price_inr_as_quoted": 15200.0,
+          "original_price": 15200,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 0.97,
+          "mapping_reason": "Direct match to Samsung 980 PRO 2TB.",
+          "vendor_description": "Samsung 980 Pro 2TB",
+          "vendor_unit": null,
+          "source_file": "14_SouthTech_Quote.docx",
+          "source_snippet": "Samsung 980 Pro 2TB is Rs 15,200",
+          "flags": [],
+          "superseded": [],
+          "alternatives": []
+        }
+      }
+    },
+    "L11": {
+      "category": "SSD",
+      "description": "Crucial MX500 1TB SATA SSD",
+      "required_qty": 25,
+      "unit": "unit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 5150.0,
+          "unit_price_inr_as_quoted": 5150.0,
+          "original_price": 5150,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Crucial MX500 1TB SATA SSD.",
+          "vendor_description": "Crucial MX500 1TB SATA SSD",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "11\tCrucial MX500 1TB SATA SSD\t25\t5150\t128750",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 5457.63,
+          "unit_price_inr_as_quoted": 6440.0,
+          "original_price": 6440,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Crucial MX500 1TB SATA SSD.",
+          "vendor_description": "Crucial MX500 1TB SATA SSD",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "11 Crucial MX500 1TB SATA SSD 25 6,440",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 5299.74,
+          "unit_price_inr_as_quoted": 5299.74,
+          "original_price": 63.47,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.8,
+          "extraction_confidence": 0.8,
+          "mapping_confidence": 0.92,
+          "mapping_reason": "CT1000MX500SSD1 is Crucial MX500 1TB SATA SSD part number.",
+          "vendor_description": "CT1000MX500SSD1",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "CT1000MX500SSD1\t25\t63.47",
+          "flags": [
+            "Converted from USD 63.47 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Vendor line note: Item code only, likely a Crucial SSD",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 5100.0,
+          "unit_price_inr_as_quoted": 5100.0,
+          "original_price": 5100,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Crucial MX500 1TB SATA SSD.",
+          "vendor_description": "Crucial MX500 1TB SATA SSD",
+          "vendor_unit": null,
+          "source_file": "09_RapidParts_Email.txt",
+          "source_snippet": "Crucial MX500 1TB SATA SSD: Rs 5,100",
+          "flags": [
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": "not quoted",
+        "SouthTech Enterprises": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 5050.0,
+          "unit_price_inr_as_quoted": 5050.0,
+          "original_price": 5050,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 0.97,
+          "mapping_reason": "Direct match to Crucial MX500 1TB SATA SSD.",
+          "vendor_description": "Crucial MX500 1TB",
+          "vendor_unit": null,
+          "source_file": "14_SouthTech_Quote.docx",
+          "source_snippet": "Crucial MX500 1TB is Rs 5,050",
+          "flags": [],
+          "superseded": [],
+          "alternatives": []
+        }
+      }
+    },
+    "L12": {
+      "category": "HDD",
+      "description": "Seagate Barracuda 2TB HDD",
+      "required_qty": 20,
+      "unit": "unit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 4160.0,
+          "unit_price_inr_as_quoted": 4160.0,
+          "original_price": 4160,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Seagate Barracuda 2TB HDD.",
+          "vendor_description": "Seagate Barracuda 2TB HDD",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "12\tSeagate Barracuda 2TB HDD\t20\t4160\t83200",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 4406.78,
+          "unit_price_inr_as_quoted": 5200.0,
+          "original_price": 5200,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Seagate Barracuda 2TB HDD.",
+          "vendor_description": "Seagate Barracuda 2TB HDD",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "12 Seagate Barracuda 2TB HDD 20 5,200",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 4280.21,
+          "unit_price_inr_as_quoted": 4280.21,
+          "original_price": 51.26,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Seagate Barracuda 2TB HDD.",
+          "vendor_description": "Seagate Barracuda 2TB HDD",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "Seagate Barracuda 2TB HDD\t20\t51.26",
+          "flags": [
+            "Converted from USD 51.26 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 4120.0,
+          "unit_price_inr_as_quoted": 4120.0,
+          "original_price": 4120,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Seagate Barracuda 2TB HDD.",
+          "vendor_description": "Seagate Barracuda 2TB HDD",
+          "vendor_unit": null,
+          "source_file": "09_RapidParts_Email.txt",
+          "source_snippet": "Seagate Barracuda 2TB HDD: Rs 4,120",
+          "flags": [
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": "not quoted",
+        "SouthTech Enterprises": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 4150.0,
+          "unit_price_inr_as_quoted": 4150.0,
+          "original_price": 4150,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 0.9,
+          "mapping_reason": "Seagate 2TB matches Seagate Barracuda 2TB HDD.",
+          "vendor_description": "Seagate 2TB",
+          "vendor_unit": null,
+          "source_file": "14_SouthTech_Quote.docx",
+          "source_snippet": "Seagate 2TB Rs 4,150",
+          "flags": [
+            "Vendor line note: Category noted as 'Hard drives' in source text."
+          ],
+          "superseded": [],
+          "alternatives": []
+        }
+      }
+    },
+    "L13": {
+      "category": "HDD",
+      "description": "WD Blue 4TB HDD",
+      "required_qty": 15,
+      "unit": "unit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 6730.0,
+          "unit_price_inr_as_quoted": 6730.0,
+          "original_price": 6730,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to WD Blue 4TB HDD.",
+          "vendor_description": "WD Blue 4TB HDD",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "13\tWD Blue 4TB HDD\t15\t6730\t100950",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 7144.07,
+          "unit_price_inr_as_quoted": 8430.0,
+          "original_price": 8430,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to WD Blue 4TB HDD.",
+          "vendor_description": "WD Blue 4TB HDD",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "13 WD Blue 4TB HDD 15 8,430",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 6939.69,
+          "unit_price_inr_as_quoted": 6939.69,
+          "original_price": 83.11,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to WD Blue 4TB HDD.",
+          "vendor_description": "WD Blue 4TB HDD",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "WD Blue 4TB HDD\t15\t83.11",
+          "flags": [
+            "Converted from USD 83.11 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 6660.0,
+          "unit_price_inr_as_quoted": 6660.0,
+          "original_price": 6660,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to WD Blue 4TB HDD.",
+          "vendor_description": "WD Blue 4TB HDD",
+          "vendor_unit": null,
+          "source_file": "09_RapidParts_Email.txt",
+          "source_snippet": "WD Blue 4TB HDD: Rs 6,660",
+          "flags": [
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": "not quoted",
+        "SouthTech Enterprises": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 6700.0,
+          "unit_price_inr_as_quoted": 6700.0,
+          "original_price": 6700,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 0.9,
+          "mapping_reason": "WD Blue 4TB matches WD Blue 4TB HDD.",
+          "vendor_description": "WD Blue 4TB",
+          "vendor_unit": null,
+          "source_file": "14_SouthTech_Quote.docx",
+          "source_snippet": "WD Blue 4TB Rs 6,700",
+          "flags": [
+            "Vendor line note: Category noted as 'Hard drives' in source text."
+          ],
+          "superseded": [],
+          "alternatives": []
+        }
+      }
+    },
+    "L14": {
+      "category": "GPU",
+      "description": "NVIDIA GeForce RTX 4060 8GB",
+      "required_qty": 10,
+      "unit": "unit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 30200.0,
+          "unit_price_inr_as_quoted": 30200.0,
+          "original_price": 30200,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to NVIDIA GeForce RTX 4060 8GB.",
+          "vendor_description": "NVIDIA GeForce RTX 4060 8GB",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "14\tNVIDIA GeForce RTX 4060 8GB\t10\t30200\t302000",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 30500.0,
+          "unit_price_inr_as_quoted": 35990.0,
+          "original_price": 35990,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to NVIDIA GeForce RTX 4060 8GB.",
+          "vendor_description": "NVIDIA GeForce RTX 4060 8GB",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "14 NVIDIA GeForce RTX 4060 8GB 10 35,990",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Vendor line note: This is a revised quote; GPU prices reduced from original CWD-Q-2026-781.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [
+            {
+              "source_file": "04_CompuWorld_Quote_v1.pdf",
+              "unit_price": 38870,
+              "currency": "INR",
+              "reason": "revised quote supersedes earlier version"
+            }
+          ],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 31109.6,
+          "unit_price_inr_as_quoted": 31109.6,
+          "original_price": 372.57,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.85,
+          "extraction_confidence": 0.85,
+          "mapping_confidence": 0.9,
+          "mapping_reason": "RTX4060-8G matches NVIDIA GeForce RTX 4060 8GB.",
+          "vendor_description": "RTX4060-8G",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "RTX4060-8G\t10\t372.57",
+          "flags": [
+            "Converted from USD 372.57 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Vendor line note: Item code only, likely an RTX 4060 8GB graphics card",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": "not quoted",
+        "Bangalore IT Traders": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 32330.0,
+          "unit_price_inr_as_quoted": 32330.0,
+          "original_price": 32330,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.85,
+          "extraction_confidence": 0.85,
+          "mapping_confidence": 0.9,
+          "mapping_reason": "RTX 4060 matches L14 but only 2 pcs available, less than required 10 units.",
+          "vendor_description": "RTX 4060 now available",
+          "vendor_unit": "pc",
+          "source_file": "13_BangaloreIT_HandwrittenCorrection.png",
+          "source_snippet": "RTX 4060 now available:    32,330 /pc (2 pcs only)",
+          "flags": [
+            "GST treatment not stated in this file; inherited 'exclusive' from the vendor's other files.",
+            "LIMITED STOCK: vendor has only 2 available; buyer needs 10.",
+            "Vendor line note: Only 2 pcs available per vendor note; limited stock."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "SouthTech Enterprises": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 30000.0,
+          "unit_price_inr_as_quoted": 30000.0,
+          "original_price": 30000,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 0.95,
+          "mapping_reason": "Direct match to NVIDIA GeForce RTX 4060 8GB.",
+          "vendor_description": "RTX 4060",
+          "vendor_unit": null,
+          "source_file": "14_SouthTech_Quote.docx",
+          "source_snippet": "The RTX 4060 is Rs 30,000",
+          "flags": [],
+          "superseded": [],
+          "alternatives": []
+        }
+      }
+    },
+    "L15": {
+      "category": "GPU",
+      "description": "NVIDIA GeForce RTX 4070 12GB",
+      "required_qty": 8,
+      "unit": "unit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 51480.0,
+          "unit_price_inr_as_quoted": 51480.0,
+          "original_price": 51480,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to NVIDIA GeForce RTX 4070 12GB.",
+          "vendor_description": "NVIDIA GeForce RTX 4070 12GB",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "15\tNVIDIA GeForce RTX 4070 12GB\t8\t51480\t411840",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 52000.0,
+          "unit_price_inr_as_quoted": 61360.0,
+          "original_price": 61360,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to NVIDIA GeForce RTX 4070 12GB.",
+          "vendor_description": "NVIDIA GeForce RTX 4070 12GB",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "15 NVIDIA GeForce RTX 4070 12GB 8 61,360",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Vendor line note: This is a revised quote; GPU prices reduced from original CWD-Q-2026-781.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [
+            {
+              "source_file": "04_CompuWorld_Quote_v1.pdf",
+              "unit_price": 66270,
+              "currency": "INR",
+              "reason": "revised quote supersedes earlier version"
+            }
+          ],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 53040.04,
+          "unit_price_inr_as_quoted": 53040.04,
+          "original_price": 635.21,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.85,
+          "extraction_confidence": 0.85,
+          "mapping_confidence": 0.9,
+          "mapping_reason": "RTX4070-12G matches NVIDIA GeForce RTX 4070 12GB.",
+          "vendor_description": "RTX4070-12G",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "RTX4070-12G\t8\t635.21",
+          "flags": [
+            "Converted from USD 635.21 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Vendor line note: Item code only, likely an RTX 4070 12GB graphics card",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": "not quoted",
+        "Bangalore IT Traders": "not quoted",
+        "SouthTech Enterprises": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 51000.0,
+          "unit_price_inr_as_quoted": 51000.0,
+          "original_price": 51000,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 0.95,
+          "mapping_reason": "Direct match to NVIDIA GeForce RTX 4070 12GB.",
+          "vendor_description": "RTX 4070",
+          "vendor_unit": null,
+          "source_file": "14_SouthTech_Quote.docx",
+          "source_snippet": "RTX 4070 Rs 51,000",
+          "flags": [
+            "Vendor line note: Vendor states GPU price can be matched/negotiated on bulk orders."
+          ],
+          "superseded": [],
+          "alternatives": []
+        }
+      }
+    },
+    "L16": {
+      "category": "PSU",
+      "description": "Corsair RM750e 750W 80+ Gold PSU",
+      "required_qty": 20,
+      "unit": "unit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 8420.0,
+          "unit_price_inr_as_quoted": 8420.0,
+          "original_price": 8420,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Corsair RM750e 750W 80+ Gold PSU.",
+          "vendor_description": "Corsair RM750e 750W 80+ Gold PSU",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "16\tCorsair RM750e 750W 80+ Gold PSU\t20\t8420\t168400",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 8923.73,
+          "unit_price_inr_as_quoted": 10530.0,
+          "original_price": 10530,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Corsair RM750e 750W 80+ Gold PSU.",
+          "vendor_description": "Corsair RM750e 750W 80+ Gold PSU",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "16 Corsair RM750e 750W 80+ Gold PSU 20 10,530",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 8669.81,
+          "unit_price_inr_as_quoted": 8669.81,
+          "original_price": 103.83,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.75,
+          "extraction_confidence": 0.75,
+          "mapping_confidence": 0.8,
+          "mapping_reason": "CP-9020248-UK is the Corsair RM750e 750W PSU UK part number.",
+          "vendor_description": "CP-9020248-UK",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "CP-9020248-UK\t20\t103.83",
+          "flags": [
+            "Converted from USD 103.83 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Vendor line note: Item code only, product identity unclear (possibly a Corsair PSU)",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 8300.0,
+          "unit_price_inr_as_quoted": 8300.0,
+          "original_price": 8300,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 0.97,
+          "mapping_reason": "Corsair RM750e matches PSU line L16 directly.",
+          "vendor_description": "Corsair RM750e PSU",
+          "vendor_unit": "pc",
+          "source_file": "11_RapidParts_HandwrittenNote.png",
+          "source_snippet": "Corsair RM750e PSU  -  Rs 8,300 /pc",
+          "flags": [
+            "CONFLICT: 09_RapidParts_Email.txt and 11_RapidParts_HandwrittenNote.png both quote this line and neither clearly supersedes the other. Verify with vendor.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [
+            {
+              "source_file": "09_RapidParts_Email.txt",
+              "unit_price": 8330,
+              "currency": "INR",
+              "reason": "no supersession rule applies; used the later file in dataset order (11_RapidParts_HandwrittenNote.png)"
+            }
+          ],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 8760.0,
+          "unit_price_inr_as_quoted": 8760.0,
+          "original_price": 8760,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.75,
+          "extraction_confidence": 0.75,
+          "mapping_confidence": 0.97,
+          "mapping_reason": "Matches Corsair RM750e 750W PSU exactly.",
+          "vendor_description": "Corsair RM750e 750W PSU",
+          "vendor_unit": null,
+          "source_file": "12_BangaloreIT_RateCard_Photo.png",
+          "source_snippet": "Corsair RM750e 750W PSU ... 8,760",
+          "flags": [
+            "Vendor line note: Photo taken at an angle; row/column alignment inferred based on typical market pricing rather than strict visual position."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "SouthTech Enterprises": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 8670.0,
+          "unit_price_inr_as_quoted": 8670.0,
+          "original_price": 8670,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 0.97,
+          "mapping_reason": "Corsair RM750e matches PSU line exactly.",
+          "vendor_description": "PSU Corsair RM750e",
+          "vendor_unit": null,
+          "source_file": "15_SouthTech_RateCard_Regional.png",
+          "source_snippet": "PSU Corsair RM750e — ರೂ 8,670",
+          "flags": [],
+          "superseded": [],
+          "alternatives": []
+        }
+      }
+    },
+    "L17": {
+      "category": "PSU",
+      "description": "Cooler Master MWE 650W 80+ Bronze PSU",
+      "required_qty": 15,
+      "unit": "unit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 4750.0,
+          "unit_price_inr_as_quoted": 4750.0,
+          "original_price": 4750,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Cooler Master MWE 650W 80+ Bronze PSU.",
+          "vendor_description": "Cooler Master MWE 650W 80+ Bronze PSU",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "17\tCooler Master MWE 650W 80+ Bronze PSU\t15\t4750\t71250",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 5042.37,
+          "unit_price_inr_as_quoted": 5950.0,
+          "original_price": 5950,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Cooler Master MWE 650W 80+ Bronze PSU.",
+          "vendor_description": "Cooler Master MWE 650W 80+ Bronze PSU",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "17 Cooler Master MWE 650W 80+ Bronze PSU 15 5,950",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 4899.78,
+          "unit_price_inr_as_quoted": 4899.78,
+          "original_price": 58.68,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Cooler Master MWE 650W 80+ Bronze PSU.",
+          "vendor_description": "Cooler Master MWE 650W 80+ Bronze PSU",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "Cooler Master MWE 650W 80+ Bronze PSU\t15\t58.68",
+          "flags": [
+            "Converted from USD 58.68 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 4650.0,
+          "unit_price_inr_as_quoted": 4650.0,
+          "original_price": 4650,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.75,
+          "extraction_confidence": 0.75,
+          "mapping_confidence": 0.9,
+          "mapping_reason": "Cooler Master 650W matches Cooler Master MWE 650W PSU.",
+          "vendor_description": "Cooler Master 650W",
+          "vendor_unit": null,
+          "source_file": "11_RapidParts_HandwrittenNote.png",
+          "source_snippet": "Cooler Master 650W  -  4,650",
+          "flags": [
+            "CONFLICT: 09_RapidParts_Email.txt and 11_RapidParts_HandwrittenNote.png both quote this line and neither clearly supersedes the other. Verify with vendor.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Vendor line note: No unit specified; assumed per piece based on context of adjacent PSU line.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [
+            {
+              "source_file": "09_RapidParts_Email.txt",
+              "unit_price": 4700,
+              "currency": "INR",
+              "reason": "no supersession rule applies; used the later file in dataset order (11_RapidParts_HandwrittenNote.png)"
+            }
+          ],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 4900.0,
+          "unit_price_inr_as_quoted": 4900.0,
+          "original_price": 4900,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.7,
+          "extraction_confidence": 0.7,
+          "mapping_confidence": 0.95,
+          "mapping_reason": "Matches Cooler Master MWE 650W PSU; MOQ 10 satisfied by required qty 15.",
+          "vendor_description": "Cooler Master MWE 650W",
+          "vendor_unit": null,
+          "source_file": "12_BangaloreIT_RateCard_Photo.png",
+          "source_snippet": "Cooler Master MWE 650W ... 4,900 ... MOQ 10",
+          "flags": [
+            "Vendor line note: MOQ 10 noted next to this row; alignment inferred due to image skew."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "SouthTech Enterprises": "not quoted"
+      }
+    },
+    "L18": {
+      "category": "Cabinet",
+      "description": "NZXT H5 Flow Mid-Tower Cabinet",
+      "required_qty": 20,
+      "unit": "unit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 7420.0,
+          "unit_price_inr_as_quoted": 7420.0,
+          "original_price": 7420,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to NZXT H5 Flow Mid-Tower Cabinet.",
+          "vendor_description": "NZXT H5 Flow Mid-Tower Cabinet",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "18\tNZXT H5 Flow Mid-Tower Cabinet\t20\t7420\t148400",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 7881.36,
+          "unit_price_inr_as_quoted": 9300.0,
+          "original_price": 9300,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to NZXT H5 Flow Mid-Tower Cabinet.",
+          "vendor_description": "NZXT H5 Flow Mid-Tower Cabinet",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "18 NZXT H5 Flow Mid-Tower Cabinet 20 9,300",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 7650.27,
+          "unit_price_inr_as_quoted": 7650.27,
+          "original_price": 91.62,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to NZXT H5 Flow Mid-Tower Cabinet.",
+          "vendor_description": "NZXT H5 Flow Mid-Tower Cabinet",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "NZXT H5 Flow Mid-Tower Cabinet\t20\t91.62",
+          "flags": [
+            "Converted from USD 91.62 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 7400.0,
+          "unit_price_inr_as_quoted": 7400.0,
+          "original_price": 7400,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.8,
+          "extraction_confidence": 0.8,
+          "mapping_confidence": 0.95,
+          "mapping_reason": "NZXT H5 Flow cabinet matches L18 directly.",
+          "vendor_description": "NZXT H5 Flow cabinet",
+          "vendor_unit": null,
+          "source_file": "11_RapidParts_HandwrittenNote.png",
+          "source_snippet": "NZXT H5 Flow cabinet - 7,400 (only 6 in stock)",
+          "flags": [
+            "CONFLICT: 09_RapidParts_Email.txt and 11_RapidParts_HandwrittenNote.png both quote this line and neither clearly supersedes the other. Verify with vendor.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "LIMITED STOCK: vendor has only 6 available; buyer needs 20.",
+            "Vendor line note: Stock limited to 6 units; no unit label given, assumed per piece.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [
+            {
+              "source_file": "09_RapidParts_Email.txt",
+              "unit_price": 7350,
+              "currency": "INR",
+              "reason": "no supersession rule applies; used the later file in dataset order (11_RapidParts_HandwrittenNote.png)"
+            }
+          ],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 7580.0,
+          "unit_price_inr_as_quoted": 7580.0,
+          "original_price": 7580,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.75,
+          "extraction_confidence": 0.75,
+          "mapping_confidence": 0.97,
+          "mapping_reason": "Matches NZXT H5 Flow cabinet.",
+          "vendor_description": "NZXT H5 Flow Cabinet",
+          "vendor_unit": null,
+          "source_file": "12_BangaloreIT_RateCard_Photo.png",
+          "source_snippet": "NZXT H5 Flow Cabinet ... 7,580",
+          "flags": [],
+          "superseded": [],
+          "alternatives": []
+        },
+        "SouthTech Enterprises": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 7500.0,
+          "unit_price_inr_as_quoted": 7500.0,
+          "original_price": 7500,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 0.95,
+          "mapping_reason": "NZXT H5 matches NZXT H5 Flow Cabinet.",
+          "vendor_description": "Cabinet NZXT H5",
+          "vendor_unit": null,
+          "source_file": "15_SouthTech_RateCard_Regional.png",
+          "source_snippet": "Cabinet NZXT H5 — ರೂ 7,500",
+          "flags": [],
+          "superseded": [],
+          "alternatives": []
+        }
+      }
+    },
+    "L19": {
+      "category": "Cabinet",
+      "description": "Corsair 4000D Airflow Cabinet",
+      "required_qty": 15,
+      "unit": "unit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 8120.0,
+          "unit_price_inr_as_quoted": 8120.0,
+          "original_price": 8120,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Corsair 4000D Airflow Cabinet.",
+          "vendor_description": "Corsair 4000D Airflow Cabinet",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "19\tCorsair 4000D Airflow Cabinet\t15\t8120\t121800",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 8610.17,
+          "unit_price_inr_as_quoted": 10160.0,
+          "original_price": 10160,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Corsair 4000D Airflow Cabinet.",
+          "vendor_description": "Corsair 4000D Airflow Cabinet",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "19 Corsair 4000D Airflow Cabinet 15 10,160",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 8360.02,
+          "unit_price_inr_as_quoted": 8360.02,
+          "original_price": 100.12,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Corsair 4000D Airflow Cabinet.",
+          "vendor_description": "Corsair 4000D Airflow Cabinet",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "Corsair 4000D Airflow Cabinet\t15\t100.12",
+          "flags": [
+            "Converted from USD 100.12 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 8040.0,
+          "unit_price_inr_as_quoted": 8040.0,
+          "original_price": 8040,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Corsair 4000D Airflow Cabinet.",
+          "vendor_description": "Corsair 4000D Airflow Cabinet",
+          "vendor_unit": null,
+          "source_file": "09_RapidParts_Email.txt",
+          "source_snippet": "Corsair 4000D Airflow Cabinet: Rs 8,040",
+          "flags": [
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 8200.0,
+          "unit_price_inr_as_quoted": 8200.0,
+          "original_price": 8200,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.85,
+          "extraction_confidence": 0.85,
+          "mapping_confidence": 0.95,
+          "mapping_reason": "Corsair 4000D Airflow Cabinet matches L19 directly.",
+          "vendor_description": "Corsair 4000D cabinet",
+          "vendor_unit": null,
+          "source_file": "13_BangaloreIT_HandwrittenCorrection.png",
+          "source_snippet": "Corsair 4000D cabinet:      8,500  8,200",
+          "flags": [
+            "GST treatment not stated in this file; inherited 'exclusive' from the vendor's other files.",
+            "Vendor line note: Original price 8,500 was struck through and corrected to 8,200; using corrected value."
+          ],
+          "superseded": [
+            {
+              "source_file": "12_BangaloreIT_RateCard_Photo.png",
+              "unit_price": 8530,
+              "currency": "INR",
+              "reason": "handwritten correction overrides earlier document"
+            }
+          ],
+          "alternatives": []
+        },
+        "SouthTech Enterprises": "not quoted"
+      }
+    },
+    "L20": {
+      "category": "Cooler",
+      "description": "Noctua NH-U12S CPU Air Cooler",
+      "required_qty": 15,
+      "unit": "unit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 5740.0,
+          "unit_price_inr_as_quoted": 5740.0,
+          "original_price": 5740,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Noctua NH-U12S CPU Air Cooler.",
+          "vendor_description": "Noctua NH-U12S CPU Air Cooler",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "20\tNoctua NH-U12S CPU Air Cooler\t15\t5740\t86100",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 6093.22,
+          "unit_price_inr_as_quoted": 7190.0,
+          "original_price": 7190,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Noctua NH-U12S CPU Air Cooler.",
+          "vendor_description": "Noctua NH-U12S CPU Air Cooler",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "20 Noctua NH-U12S CPU Air Cooler 15 7,190",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 5920.15,
+          "unit_price_inr_as_quoted": 5920.15,
+          "original_price": 70.9,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Noctua NH-U12S CPU Air Cooler.",
+          "vendor_description": "Noctua NH-U12S CPU Air Cooler",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "Noctua NH-U12S CPU Air Cooler\t15\t70.9",
+          "flags": [
+            "Converted from USD 70.9 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 5900.0,
+          "unit_price_inr_as_quoted": 5900.0,
+          "original_price": 5900,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.8,
+          "extraction_confidence": 0.8,
+          "mapping_confidence": 0.97,
+          "mapping_reason": "Noctua NH-U12S matches L20 cooler exactly.",
+          "vendor_description": "Noctua NH-U12S",
+          "vendor_unit": null,
+          "source_file": "11_RapidParts_HandwrittenNote.png",
+          "source_snippet": "Noctua NH-U12S  ->  5,900",
+          "flags": [
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Vendor line note: No unit label given, assumed per piece.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": "not quoted",
+        "SouthTech Enterprises": "not quoted"
+      }
+    },
+    "L21": {
+      "category": "Cooler",
+      "description": "Cooler Master Hyper 212 Black CPU Cooler",
+      "required_qty": 20,
+      "unit": "unit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 3170.0,
+          "unit_price_inr_as_quoted": 3170.0,
+          "original_price": 3170,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Cooler Master Hyper 212 Black CPU Cooler.",
+          "vendor_description": "Cooler Master Hyper 212 Black CPU Cooler",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "21\tCooler Master Hyper 212 Black CPU Cooler\t20\t3170\t63400",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 3355.93,
+          "unit_price_inr_as_quoted": 3960.0,
+          "original_price": 3960,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Cooler Master Hyper 212 Black CPU Cooler.",
+          "vendor_description": "Cooler Master Hyper 212 Black CPU Cooler",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "21 Cooler Master Hyper 212 Black CPU Cooler 20 3,960",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 3259.84,
+          "unit_price_inr_as_quoted": 3259.84,
+          "original_price": 39.04,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Cooler Master Hyper 212 Black CPU Cooler.",
+          "vendor_description": "Cooler Master Hyper 212 Black CPU Cooler",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "Cooler Master Hyper 212 Black CPU Cooler\t20\t39.04",
+          "flags": [
+            "Converted from USD 39.04 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": "not quoted",
+        "Bangalore IT Traders": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 3140.0,
+          "unit_price_inr_as_quoted": 3140.0,
+          "original_price": 3140,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.65,
+          "extraction_confidence": 0.65,
+          "mapping_confidence": 0.9,
+          "mapping_reason": "Matches Cooler Master Hyper 212 cooler despite noted price anomaly.",
+          "vendor_description": "Cooler Master Hyper 212",
+          "vendor_unit": null,
+          "source_file": "12_BangaloreIT_RateCard_Photo.png",
+          "source_snippet": "Cooler Master Hyper 212 ... 3,140",
+          "flags": [
+            "Vendor line note: Price seems higher than typical market rate for this cooler; possible misalignment due to photo skew."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "SouthTech Enterprises": "not quoted"
+      }
+    },
+    "L22": {
+      "category": "Monitor",
+      "description": "Dell P2422H 24-inch FHD Monitor",
+      "required_qty": 25,
+      "unit": "unit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 12380.0,
+          "unit_price_inr_as_quoted": 12380.0,
+          "original_price": 12380,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Dell P2422H 24-inch FHD Monitor.",
+          "vendor_description": "Dell P2422H 24-inch FHD Monitor",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "22\tDell P2422H 24-inch FHD Monitor\t25\t12380\t309500",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 13118.64,
+          "unit_price_inr_as_quoted": 15480.0,
+          "original_price": 15480,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Dell P2422H 24-inch FHD Monitor.",
+          "vendor_description": "Dell P2422H 24-inch FHD Monitor",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "22 Dell P2422H 24-inch FHD Monitor 25 15,480",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 12749.61,
+          "unit_price_inr_as_quoted": 12749.61,
+          "original_price": 152.69,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.75,
+          "extraction_confidence": 0.75,
+          "mapping_confidence": 0.85,
+          "mapping_reason": "210-BBYP is the Dell part number for the P2422H 24-inch monitor.",
+          "vendor_description": "210-BBYP",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "210-BBYP\t25\t152.69",
+          "flags": [
+            "Converted from USD 152.69 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Vendor line note: Item code only, product identity unclear (possibly a Dell part number)",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 12250.0,
+          "unit_price_inr_as_quoted": 12250.0,
+          "original_price": 12250,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Dell P2422H 24-inch Monitor.",
+          "vendor_description": "Dell P2422H 24-inch FHD Monitor",
+          "vendor_unit": null,
+          "source_file": "09_RapidParts_Email.txt",
+          "source_snippet": "Dell P2422H 24-inch FHD Monitor: Rs 12,250",
+          "flags": [
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 12750.0,
+          "unit_price_inr_as_quoted": 12750.0,
+          "original_price": 12750,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.75,
+          "extraction_confidence": 0.75,
+          "mapping_confidence": 0.97,
+          "mapping_reason": "Matches Dell P2422H 24-inch FHD Monitor.",
+          "vendor_description": "Dell P2422H 24in Monitor",
+          "vendor_unit": null,
+          "source_file": "12_BangaloreIT_RateCard_Photo.png",
+          "source_snippet": "Dell P2422H 24in Monitor ... 12,750",
+          "flags": [],
+          "superseded": [],
+          "alternatives": []
+        },
+        "SouthTech Enterprises": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 12620.0,
+          "unit_price_inr_as_quoted": 12620.0,
+          "original_price": 12620,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 0.9,
+          "mapping_reason": "Dell 24\" monitor matches Dell P2422H 24-inch FHD Monitor.",
+          "vendor_description": "Monitor Dell 24\"",
+          "vendor_unit": null,
+          "source_file": "15_SouthTech_RateCard_Regional.png",
+          "source_snippet": "Monitor Dell 24\" — ರೂ 12,620",
+          "flags": [],
+          "superseded": [],
+          "alternatives": []
+        }
+      }
+    },
+    "L23": {
+      "category": "Monitor",
+      "description": "LG 27QN600 27-inch QHD Monitor",
+      "required_qty": 15,
+      "unit": "unit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 21780.0,
+          "unit_price_inr_as_quoted": 21780.0,
+          "original_price": 21780,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to LG 27QN600 27-inch QHD Monitor.",
+          "vendor_description": "LG 27QN600 27-inch QHD Monitor",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "23\tLG 27QN600 27-inch QHD Monitor\t15\t21780\t326700",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 23101.69,
+          "unit_price_inr_as_quoted": 27260.0,
+          "original_price": 27260,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to LG 27QN600 27-inch QHD Monitor.",
+          "vendor_description": "LG 27QN600 27-inch QHD Monitor",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "23 LG 27QN600 27-inch QHD Monitor 15 27,260",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 22439.79,
+          "unit_price_inr_as_quoted": 22439.79,
+          "original_price": 268.74,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to LG 27QN600 27-inch QHD Monitor.",
+          "vendor_description": "LG 27QN600 27-inch QHD Monitor",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "LG 27QN600 27-inch QHD Monitor\t15\t268.74",
+          "flags": [
+            "Converted from USD 268.74 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 21560.0,
+          "unit_price_inr_as_quoted": 21560.0,
+          "original_price": 21560,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to LG 27QN600 27-inch Monitor.",
+          "vendor_description": "LG 27QN600 27-inch QHD Monitor",
+          "vendor_unit": null,
+          "source_file": "09_RapidParts_Email.txt",
+          "source_snippet": "LG 27QN600 27-inch QHD Monitor: Rs 21,560",
+          "flags": [
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 22660.0,
+          "unit_price_inr_as_quoted": 22660.0,
+          "original_price": 22660,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.7,
+          "extraction_confidence": 0.7,
+          "mapping_confidence": 0.95,
+          "mapping_reason": "Matches LG 27QN600 27-inch QHD Monitor; MOQ 5 satisfied by required qty 15.",
+          "vendor_description": "LG 27QN600 27in QHD",
+          "vendor_unit": null,
+          "source_file": "12_BangaloreIT_RateCard_Photo.png",
+          "source_snippet": "LG 27QN600 27in QHD ... 22,660 ... MOQ 5",
+          "flags": [
+            "Vendor line note: MOQ 5 noted next to this row."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "SouthTech Enterprises": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 22440.0,
+          "unit_price_inr_as_quoted": 22440.0,
+          "original_price": 22440,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 0.9,
+          "mapping_reason": "LG 27\" monitor matches LG 27QN600 27-inch QHD Monitor.",
+          "vendor_description": "Monitor LG 27\"",
+          "vendor_unit": null,
+          "source_file": "15_SouthTech_RateCard_Regional.png",
+          "source_snippet": "Monitor LG 27\" — ರೂ 22,440",
+          "flags": [],
+          "superseded": [],
+          "alternatives": []
+        }
+      }
+    },
+    "L24": {
+      "category": "Peripheral",
+      "description": "Logitech K120 USB Keyboard",
+      "required_qty": 50,
+      "unit": "unit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 640.0,
+          "unit_price_inr_as_quoted": 640.0,
+          "original_price": 640,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Logitech K120 USB Keyboard.",
+          "vendor_description": "Logitech K120 USB Keyboard",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "24\tLogitech K120 USB Keyboard\t50\t640\t32000",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 677.97,
+          "unit_price_inr_as_quoted": 800.0,
+          "original_price": 800,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Logitech K120 USB Keyboard.",
+          "vendor_description": "Logitech K120 USB Keyboard",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "24 Logitech K120 USB Keyboard 50 800",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 659.65,
+          "unit_price_inr_as_quoted": 659.65,
+          "original_price": 7.9,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Logitech K120 USB Keyboard.",
+          "vendor_description": "Logitech K120 USB Keyboard",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "Logitech K120 USB Keyboard\t50\t7.9",
+          "flags": [
+            "Converted from USD 7.9 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": {
+          "status": "quoted_without_price",
+          "unit_price_inr_ex_gst": null,
+          "unit_price_inr_as_quoted": null,
+          "original_price": null,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.2,
+          "extraction_confidence": 0.2,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Logitech K120 USB Keyboard.",
+          "vendor_description": "Logitech K120 USB Keyboard",
+          "vendor_unit": null,
+          "source_file": "09_RapidParts_Email.txt",
+          "source_snippet": "Logitech K120 USB Keyboard: same as last year",
+          "flags": [
+            "Line is mentioned but no price is stated.",
+            "Vendor line note: Price stated as 'same as last year' but the actual prior price is not given in this document; cannot be determined.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 600.0,
+          "unit_price_inr_as_quoted": 600.0,
+          "original_price": 600,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.8,
+          "extraction_confidence": 0.8,
+          "mapping_confidence": 0.85,
+          "mapping_reason": "Logitech K120 keyboard matches L24; bulk quantity threshold unspecified.",
+          "vendor_description": "K120 kbd price",
+          "vendor_unit": null,
+          "source_file": "13_BangaloreIT_HandwrittenCorrection.png",
+          "source_snippet": "K120 kbd price ->   640  600 (bulk)",
+          "flags": [
+            "GST treatment not stated in this file; inherited 'exclusive' from the vendor's other files.",
+            "Vendor line note: Original price 640 struck through and corrected to 600, labeled as bulk price; quantity for bulk pricing not specified."
+          ],
+          "superseded": [
+            {
+              "source_file": "12_BangaloreIT_RateCard_Photo.png",
+              "unit_price": 650,
+              "currency": "INR",
+              "reason": "handwritten correction overrides earlier document"
+            }
+          ],
+          "alternatives": []
+        },
+        "SouthTech Enterprises": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 650.0,
+          "unit_price_inr_as_quoted": 650.0,
+          "original_price": 650,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 0.97,
+          "mapping_reason": "Logitech K120 keyboard matches exactly.",
+          "vendor_description": "Keyboard Logitech K120",
+          "vendor_unit": null,
+          "source_file": "15_SouthTech_RateCard_Regional.png",
+          "source_snippet": "Keyboard Logitech K120 — ರೂ 650",
+          "flags": [],
+          "superseded": [],
+          "alternatives": []
+        }
+      }
+    },
+    "L25": {
+      "category": "Peripheral",
+      "description": "Logitech MK270 Wireless Keyboard+Mouse Combo",
+      "required_qty": 30,
+      "unit": "combo",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 1830.0,
+          "unit_price_inr_as_quoted": 1830.0,
+          "original_price": 1830,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Logitech MK270 Wireless Keyboard+Mouse Combo.",
+          "vendor_description": "Logitech MK270 Wireless Keyboard+Mouse Combo",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "25\tLogitech MK270 Wireless Keyboard+Mouse Combo\t30\t1830\t54900",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 1940.68,
+          "unit_price_inr_as_quoted": 2290.0,
+          "original_price": 2290,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Logitech MK270 Wireless Keyboard+Mouse Combo.",
+          "vendor_description": "Logitech MK270 Wireless Keyboard+Mouse Combo",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "25 Logitech MK270 Wireless Keyboard+Mouse Combo 30 2,290",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 1889.61,
+          "unit_price_inr_as_quoted": 1889.61,
+          "original_price": 22.63,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Logitech MK270 Wireless Keyboard+Mouse Combo.",
+          "vendor_description": "Logitech MK270 Wireless Keyboard+Mouse Combo",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "Logitech MK270 Wireless Keyboard+Mouse Combo\t30\t22.63",
+          "flags": [
+            "Converted from USD 22.63 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": {
+          "status": "quoted_without_price",
+          "unit_price_inr_ex_gst": null,
+          "unit_price_inr_as_quoted": null,
+          "original_price": null,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.2,
+          "extraction_confidence": 0.2,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Logitech MK270 Combo.",
+          "vendor_description": "Logitech MK270 Wireless Keyboard+Mouse Combo",
+          "vendor_unit": null,
+          "source_file": "09_RapidParts_Email.txt",
+          "source_snippet": "Logitech MK270 Wireless Keyboard+Mouse Combo: same as last year",
+          "flags": [
+            "Line is mentioned but no price is stated.",
+            "Vendor line note: Price stated as 'same as last year' but the actual prior price is not given in this document; cannot be determined.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 1850.0,
+          "unit_price_inr_as_quoted": 1850.0,
+          "original_price": 1850,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 0.95,
+          "mapping_reason": "Logitech MK270 combo matches L25 directly.",
+          "vendor_description": "Logitech MK270 combo",
+          "vendor_unit": null,
+          "source_file": "13_BangaloreIT_HandwrittenCorrection.png",
+          "source_snippet": "Logitech MK270 combo:      Rs 1,850",
+          "flags": [
+            "GST treatment not stated in this file; inherited 'exclusive' from the vendor's other files."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "SouthTech Enterprises": "not quoted"
+      }
+    },
+    "L26": {
+      "category": "Peripheral",
+      "description": "Logitech B100 USB Mouse",
+      "required_qty": 50,
+      "unit": "unit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 450.0,
+          "unit_price_inr_as_quoted": 450.0,
+          "original_price": 450,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Logitech B100 USB Mouse.",
+          "vendor_description": "Logitech B100 USB Mouse",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "26\tLogitech B100 USB Mouse\t50\t450\t22500",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 466.1,
+          "unit_price_inr_as_quoted": 550.0,
+          "original_price": 550,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Logitech B100 USB Mouse.",
+          "vendor_description": "Logitech B100 USB Mouse",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "26 Logitech B100 USB Mouse 50 550",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 460.08,
+          "unit_price_inr_as_quoted": 460.08,
+          "original_price": 5.51,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Logitech B100 USB Mouse.",
+          "vendor_description": "Logitech B100 USB Mouse",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "Logitech B100 USB Mouse\t50\t5.51",
+          "flags": [
+            "Converted from USD 5.51 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": {
+          "status": "quoted_without_price",
+          "unit_price_inr_ex_gst": null,
+          "unit_price_inr_as_quoted": null,
+          "original_price": null,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.2,
+          "extraction_confidence": 0.2,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Logitech B100 USB Mouse.",
+          "vendor_description": "Logitech B100 USB Mouse",
+          "vendor_unit": null,
+          "source_file": "09_RapidParts_Email.txt",
+          "source_snippet": "Logitech B100 USB Mouse: same as last year",
+          "flags": [
+            "Line is mentioned but no price is stated.",
+            "Vendor line note: Price stated as 'same as last year' but the actual prior price is not given in this document; cannot be determined.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 450.0,
+          "unit_price_inr_as_quoted": 450.0,
+          "original_price": 450,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.75,
+          "extraction_confidence": 0.75,
+          "mapping_confidence": 0.97,
+          "mapping_reason": "Matches Logitech B100 USB Mouse.",
+          "vendor_description": "Logitech B100 Mouse",
+          "vendor_unit": null,
+          "source_file": "12_BangaloreIT_RateCard_Photo.png",
+          "source_snippet": "Logitech B100 Mouse ... 450",
+          "flags": [],
+          "superseded": [],
+          "alternatives": []
+        },
+        "SouthTech Enterprises": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 450.0,
+          "unit_price_inr_as_quoted": 450.0,
+          "original_price": 450,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 0.97,
+          "mapping_reason": "Logitech B100 mouse matches exactly.",
+          "vendor_description": "Mouse Logitech B100",
+          "vendor_unit": null,
+          "source_file": "15_SouthTech_RateCard_Regional.png",
+          "source_snippet": "Mouse Logitech B100 — ರೂ 450",
+          "flags": [],
+          "superseded": [],
+          "alternatives": []
+        }
+      }
+    },
+    "L27": {
+      "category": "Networking",
+      "description": "TP-Link TG-3468 Gigabit PCIe Network Card",
+      "required_qty": 20,
+      "unit": "unit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 1090.0,
+          "unit_price_inr_as_quoted": 1090.0,
+          "original_price": 1090,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to TP-Link TG-3468 Gigabit PCIe Network Card.",
+          "vendor_description": "TP-Link TG-3468 Gigabit PCIe Network Card",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "27\tTP-Link TG-3468 Gigabit PCIe Network Card\t20\t1090\t21800",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 1161.02,
+          "unit_price_inr_as_quoted": 1370.0,
+          "original_price": 1370,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to TP-Link TG-3468 Gigabit PCIe Network Card.",
+          "vendor_description": "TP-Link TG-3468 Gigabit PCIe Network Card",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "27 TP-Link TG-3468 Gigabit PCIe Network Card 20 1,370",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 1119.73,
+          "unit_price_inr_as_quoted": 1119.73,
+          "original_price": 13.41,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to TP-Link TG-3468 Gigabit PCIe Network Card.",
+          "vendor_description": "TP-Link TG-3468 Gigabit PCIe Network Card",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "TP-Link TG-3468 Gigabit PCIe Network Card\t20\t13.41",
+          "flags": [
+            "Converted from USD 13.41 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": "not quoted",
+        "Bangalore IT Traders": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 1160.0,
+          "unit_price_inr_as_quoted": 1160.0,
+          "original_price": 1160,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.65,
+          "extraction_confidence": 0.65,
+          "mapping_confidence": 0.93,
+          "mapping_reason": "Matches TP-Link TG-3468 Gigabit PCIe Network Card.",
+          "vendor_description": "TP-Link Gigabit NIC",
+          "vendor_unit": null,
+          "source_file": "12_BangaloreIT_RateCard_Photo.png",
+          "source_snippet": "TP-Link Gigabit NIC ... 1,160",
+          "flags": [
+            "Vendor line note: This is the last price on the card with no clearly aligned item beneath it in the photo; alignment inferred from typical row order."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "SouthTech Enterprises": "not quoted"
+      }
+    },
+    "L28": {
+      "category": "Accessory",
+      "description": "Arctic MX-4 Thermal Paste 4g",
+      "required_qty": 40,
+      "unit": "tube",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 540.0,
+          "unit_price_inr_as_quoted": 540.0,
+          "original_price": 540,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Arctic MX-4 Thermal Paste 4g.",
+          "vendor_description": "Arctic MX-4 Thermal Paste 4g",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "28\tArctic MX-4 Thermal Paste 4g\t40\t540\t21600",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 576.27,
+          "unit_price_inr_as_quoted": 680.0,
+          "original_price": 680,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to Arctic MX-4 Thermal Paste 4g.",
+          "vendor_description": "Arctic MX-4 Thermal Paste 4g",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "28 Arctic MX-4 Thermal Paste 4g 40 680",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": "not quoted",
+        "RapidParts": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 520.0,
+          "unit_price_inr_as_quoted": 520.0,
+          "original_price": 520,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 0.95,
+          "mapping_reason": "Arctic MX-4 thermal paste tube matches L28.",
+          "vendor_description": "thermal paste MX-4",
+          "vendor_unit": "tube",
+          "source_file": "11_RapidParts_HandwrittenNote.png",
+          "source_snippet": "thermal paste MX-4  -  Rs 520 per tube",
+          "flags": [
+            "CONFLICT: 09_RapidParts_Email.txt and 11_RapidParts_HandwrittenNote.png both quote this line and neither clearly supersedes the other. Verify with vendor.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [
+            {
+              "source_file": "09_RapidParts_Email.txt",
+              "unit_price": 540,
+              "currency": "INR",
+              "reason": "no supersession rule applies; used the later file in dataset order (11_RapidParts_HandwrittenNote.png)"
+            }
+          ],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": "not quoted",
+        "SouthTech Enterprises": "not quoted"
+      }
+    },
+    "L29": {
+      "category": "Cable",
+      "description": "HDMI 2.1 Cable 2 meter",
+      "required_qty": 60,
+      "unit": "unit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 740.0,
+          "unit_price_inr_as_quoted": 740.0,
+          "original_price": 740,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to HDMI 2.1 Cable 2 meter.",
+          "vendor_description": "HDMI 2.1 Cable 2 meter",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "29\tHDMI 2.1 Cable 2 meter\t60\t740\t44400",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 788.14,
+          "unit_price_inr_as_quoted": 930.0,
+          "original_price": 930,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to HDMI 2.1 Cable 2 meter.",
+          "vendor_description": "HDMI 2.1 Cable 2 meter",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "29 HDMI 2.1 Cable 2 meter 60 930",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": "not quoted",
+        "RapidParts": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 700.0,
+          "unit_price_inr_as_quoted": 700.0,
+          "original_price": 700,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.75,
+          "extraction_confidence": 0.75,
+          "mapping_confidence": 0.9,
+          "mapping_reason": "HDMI 2.1 2m cable matches L29; single-unit price applies for required 60-unit order.",
+          "vendor_description": "HDMI cable 2m",
+          "vendor_unit": "pc",
+          "source_file": "11_RapidParts_HandwrittenNote.png",
+          "source_snippet": "HDMI cable 2m  -  700 (box of 10 = 6500)",
+          "flags": [
+            "CONFLICT: 09_RapidParts_Email.txt and 11_RapidParts_HandwrittenNote.png both quote this line and neither clearly supersedes the other. Verify with vendor.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Vendor line note: Alternate bulk pricing given: box of 10 = 6500 (i.e., 650/unit), differing from single-unit price of 700; both figures noted for clarity.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [
+            {
+              "source_file": "09_RapidParts_Email.txt",
+              "unit_price": 740,
+              "currency": "INR",
+              "reason": "no supersession rule applies; used the later file in dataset order (11_RapidParts_HandwrittenNote.png)"
+            }
+          ],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": "not quoted",
+        "SouthTech Enterprises": "not quoted"
+      }
+    },
+    "L30": {
+      "category": "Power",
+      "description": "APC BX600C-IN 600VA UPS",
+      "required_qty": 25,
+      "unit": "unit",
+      "vendors": {
+        "TechnoServe Solutions Pvt Ltd": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 3760.0,
+          "unit_price_inr_as_quoted": 3760.0,
+          "original_price": 3760,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to APC BX600C-IN 600VA UPS.",
+          "vendor_description": "APC BX600C-IN 600VA UPS",
+          "vendor_unit": null,
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "source_snippet": "30\tAPC BX600C-IN 600VA UPS\t25\t3760\t94000",
+          "flags": [
+            "Freight/delivery terms: Freight extra at actuals."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "CompuWorld Distributors": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 3991.53,
+          "unit_price_inr_as_quoted": 4710.0,
+          "original_price": 4710,
+          "original_currency": "INR",
+          "gst_treatment": "inclusive",
+          "confidence": 0.95,
+          "extraction_confidence": 0.95,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to APC BX600C-IN 600VA UPS.",
+          "vendor_description": "APC BX600C-IN 600VA UPS",
+          "vendor_unit": null,
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "source_snippet": "30 APC BX600C-IN 600VA UPS 25 4,710",
+          "flags": [
+            "Quoted GST-inclusive; 18% GST stripped for comparison.",
+            "Freight/delivery terms: Delivered to site, freight included. Delivered to site, freight included."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "NEXUS SYSTEMS (Singapore)": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 3880.24,
+          "unit_price_inr_as_quoted": 3880.24,
+          "original_price": 46.47,
+          "original_currency": "USD",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to APC BX600C-IN 600VA UPS.",
+          "vendor_description": "APC BX600C-IN 600VA UPS",
+          "vendor_unit": null,
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "source_snippet": "APC BX600C-IN 600VA UPS\t25\t46.47",
+          "flags": [
+            "Converted from USD 46.47 at 83.5 INR/USD.",
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "RapidParts": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 3720.0,
+          "unit_price_inr_as_quoted": 3720.0,
+          "original_price": 3720,
+          "original_currency": "INR",
+          "gst_treatment": "unknown",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 1.0,
+          "mapping_reason": "Exact match to APC BX600C-IN 600VA UPS.",
+          "vendor_description": "APC BX600C-IN 600VA UPS",
+          "vendor_unit": null,
+          "source_file": "09_RapidParts_Email.txt",
+          "source_snippet": "APC BX600C-IN 600VA UPS: Rs 3,720",
+          "flags": [
+            "GST treatment unknown; price used as quoted, so it may or may not include GST.",
+            "Freight/delivery terms: freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+          ],
+          "superseded": [],
+          "alternatives": []
+        },
+        "Bangalore IT Traders": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 3880.0,
+          "unit_price_inr_as_quoted": 3880.0,
+          "original_price": 3880,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.75,
+          "extraction_confidence": 0.75,
+          "mapping_confidence": 0.95,
+          "mapping_reason": "Matches APC BX600C-IN 600VA UPS.",
+          "vendor_description": "APC 600VA UPS",
+          "vendor_unit": null,
+          "source_file": "12_BangaloreIT_RateCard_Photo.png",
+          "source_snippet": "APC 600VA UPS ... 3,880",
+          "flags": [],
+          "superseded": [],
+          "alternatives": []
+        },
+        "SouthTech Enterprises": {
+          "status": "quoted",
+          "unit_price_inr_ex_gst": 3840.0,
+          "unit_price_inr_as_quoted": 3840.0,
+          "original_price": 3840,
+          "original_currency": "INR",
+          "gst_treatment": "exclusive",
+          "confidence": 0.9,
+          "extraction_confidence": 0.9,
+          "mapping_confidence": 0.95,
+          "mapping_reason": "APC 600VA UPS matches APC BX600C-IN 600VA UPS.",
+          "vendor_description": "UPS APC 600VA",
+          "vendor_unit": null,
+          "source_file": "15_SouthTech_RateCard_Regional.png",
+          "source_snippet": "UPS APC 600VA — ರೂ 3,840",
+          "flags": [],
+          "superseded": [],
+          "alternatives": []
+        }
+      }
+    }
+  },
+  "vendors": {
+    "TechnoServe Solutions Pvt Ltd": {
+      "vendor_key": "technoserve solutions",
+      "names_seen": [
+        "TechnoServe Solutions",
+        "TechnoServe Solutions Pvt Ltd"
+      ],
+      "files_in_precedence_order": [
+        {
+          "source_file": "01_TechnoServe_Quote.xlsx",
+          "is_correction": false,
+          "is_revised": false,
+          "date": null,
+          "line_items": 30,
+          "overall_notes": "All prices in INR. GST @18% extra (not included in unit/amount prices). Freight extra at actuals. Sub Total: Rs 5,051,240; GST @18% to be added on top."
+        },
+        {
+          "source_file": "02_TechnoServe_Warranty.docx",
+          "is_correction": false,
+          "is_revised": false,
+          "date": null,
+          "line_items": 0,
+          "overall_notes": "This document is an annexure covering warranty and terms only, with no priced line items. Warranty terms: CPUs, GPUs, motherboards and SSDs - 3 years standard manufacturer warranty. RAM modules - lifetime manufacturer warranty. Power supplies (PSU) - 5 years warranty. Monitors - 3 years onsite warranty. Peripherals, cables, thermal paste and UPS - 1 year warranty. Cabinets - 1 year warranty against manufacturing defects. Payment terms: 50% advance, balance on delivery. Delivery: 2-3 weeks from PO. Prices valid for 30 days from quotation date. Vendor states ISO 9001:2015 certified and authorised reseller for Intel, ASUS and Samsung."
+        },
+        {
+          "source_file": "03_TechnoServe_Questionnaire_Email.txt",
+          "is_correction": false,
+          "is_revised": false,
+          "date": null,
+          "line_items": 0,
+          "overall_notes": "This document is a vendor qualification questionnaire response, not a price quotation. No line items, prices, or quantities are provided. Payment terms mentioned: 50% advance, 50% on delivery. Delivery lead time: 2 to 3 weeks. Vendor is ISO 9001:2015 certified (valid till Aug 2027). Authorised reseller for Intel, ASUS, Samsung; other brands via authorised distributors. Offers onsite warranty support in Bangalore for monitors and CPUs only. Annual turnover reported as Rs 42 Crore (FY 2024-25). Reference to RFQ-2026-CP-114 in subject line, but no quote_ref number provided by vendor."
+        }
+      ],
+      "freight_terms": [
+        "Freight extra at actuals."
+      ],
+      "supersession_log": []
+    },
+    "CompuWorld Distributors": {
+      "vendor_key": "compuworld distributors",
+      "names_seen": [
+        "CompuWorld Distributors"
+      ],
+      "files_in_precedence_order": [
+        {
+          "source_file": "04_CompuWorld_Quote_v1.pdf",
+          "is_correction": false,
+          "is_revised": false,
+          "date": null,
+          "line_items": 30,
+          "overall_notes": "All prices in INR, inclusive of 18% GST. Delivered to site, freight included. An additional volume discount of 5% applies on the total invoice value if the combined order exceeds Rs 5,00,000, adjusted at final invoicing. Prices valid for 15 days. Subject to stock availability."
+        },
+        {
+          "source_file": "06_CompuWorld_Questionnaire.docx",
+          "is_correction": false,
+          "is_revised": false,
+          "date": null,
+          "line_items": 0,
+          "overall_notes": "This document is a qualification/vendor questionnaire, not a price quotation. No line items, prices, or quantities are provided. Key details: ISO 9001 certification not yet obtained (in process, expected Q3 2026); authorised reseller for Corsair, Crucial, MSI only, with GPUs sourced via grey-market imports; delivery lead time 7-10 days ex-stock; payment terms require 100% advance for first order, credit terms available from 2nd order onward; no onsite support in Bangalore, only carry-in service centre."
+        },
+        {
+          "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+          "is_correction": false,
+          "is_revised": true,
+          "date": null,
+          "line_items": 30,
+          "overall_notes": "All prices in INR, inclusive of 18% GST. Delivered to site, freight included. An additional volume discount of 5% applies on the total invoice value if the combined order exceeds Rs 5,00,000, adjusted at final invoicing. This REVISED quote (CWD-Q-2026-781-R2) supersedes CWD-Q-2026-781 dated 13-Mar; GPU prices reduced. Prices valid for 15 days. Subject to stock availability."
+        }
+      ],
+      "freight_terms": [
+        "Delivered to site, freight included.",
+        "Delivered to site, freight included."
+      ],
+      "supersession_log": [
+        "L14: 04_CompuWorld_Quote_v1.pdf (38870) -> 05_CompuWorld_Quote_v2_REVISED.pdf (35990): revised quote supersedes earlier version",
+        "L15: 04_CompuWorld_Quote_v1.pdf (66270) -> 05_CompuWorld_Quote_v2_REVISED.pdf (61360): revised quote supersedes earlier version"
+      ]
+    },
+    "NEXUS SYSTEMS (Singapore)": {
+      "vendor_key": "nexus systems",
+      "names_seen": [
+        "NEXUS SYSTEMS (Singapore)",
+        "Nexus Systems"
+      ],
+      "files_in_precedence_order": [
+        {
+          "source_file": "07_Nexus_Quote_USD.xlsx",
+          "is_correction": false,
+          "is_revised": false,
+          "date": null,
+          "line_items": 28,
+          "overall_notes": "Quotation from NEXUS SYSTEMS (Singapore), Ref: NXS-EXP-2026-233, currency USD. Prices quoted are FOB Singapore, with freight and duty extra (not included). No mention of GST/tax treatment in the document, so gst_treatment set to unknown. No payment terms, validity period, warranty, or discount information provided in the document."
+        },
+        {
+          "source_file": "08_Nexus_Questionnaire.pdf",
+          "is_correction": false,
+          "is_revised": false,
+          "date": null,
+          "line_items": 0,
+          "overall_notes": "This document is a vendor questionnaire, not a price quotation. It contains no line items, quantities, unit prices, or currency information. Key details captured: ISO 9001:2015 and ISO 14001 certified; Authorised distributor for NVIDIA, Samsung, Kingston (APAC); Lead time 3-4 weeks (import + customs clearance); Payment terms - Letter of Credit or 100% TT advance; No onsite support in Bangalore, RMA handled via India logistics partner."
+        }
+      ],
+      "freight_terms": [
+        "Prices quoted are FOB Singapore, with freight and duty extra (not included)."
+      ],
+      "supersession_log": []
+    },
+    "RapidParts": {
+      "vendor_key": "rapidparts",
+      "names_seen": [
+        "RapidParts"
+      ],
+      "files_in_precedence_order": [
+        {
+          "source_file": "09_RapidParts_Email.txt",
+          "is_correction": false,
+          "is_revised": false,
+          "date": null,
+          "line_items": 26,
+          "overall_notes": "Email states 'rates below, rest same as last year. freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices may change if order is delayed beyond the week the quote was sent (no explicit expiry date given). Vendor mentions a 'keyboards/mice combo deal available ask us' - details not specified. Vendor also offers a 'no gst bill option' implying GST treatment of the quoted prices is ambiguous/unclear - could not determine if listed prices are inclusive or exclusive of GST. Three items (Logitech K120, MK270, B100) have no stated price, only 'same as last year', which is not resolvable from this document alone."
+        },
+        {
+          "source_file": "10_RapidParts_FreightNote.txt",
+          "is_correction": false,
+          "is_revised": false,
+          "date": null,
+          "line_items": 0,
+          "overall_notes": "Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. No formal warranty on grey-market GPUs. Prices held only till end of this week. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided."
+        },
+        {
+          "source_file": "11_RapidParts_HandwrittenNote.png",
+          "is_correction": false,
+          "is_revised": false,
+          "date": null,
+          "line_items": 6,
+          "overall_notes": "Note at bottom states 'rest same as quoted. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+        }
+      ],
+      "freight_terms": [
+        "freight extra as usual.' meaning freight/shipping is not included in quoted prices.",
+        "Prices quoted are ex-godown Bangalore.",
+        "Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume.",
+        "Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided.",
+        "- S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document.",
+        "No GST treatment, freight terms, or validity period specified in this extra items note."
+      ],
+      "supersession_log": [
+        "L16: 09_RapidParts_Email.txt (8330) -> 11_RapidParts_HandwrittenNote.png (8300): no supersession rule applies; used the later file in dataset order (11_RapidParts_HandwrittenNote.png)",
+        "L17: 09_RapidParts_Email.txt (4700) -> 11_RapidParts_HandwrittenNote.png (4650): no supersession rule applies; used the later file in dataset order (11_RapidParts_HandwrittenNote.png)",
+        "L18: 09_RapidParts_Email.txt (7350) -> 11_RapidParts_HandwrittenNote.png (7400): no supersession rule applies; used the later file in dataset order (11_RapidParts_HandwrittenNote.png)",
+        "L28: 09_RapidParts_Email.txt (540) -> 11_RapidParts_HandwrittenNote.png (520): no supersession rule applies; used the later file in dataset order (11_RapidParts_HandwrittenNote.png)",
+        "L29: 09_RapidParts_Email.txt (740) -> 11_RapidParts_HandwrittenNote.png (700): no supersession rule applies; used the later file in dataset order (11_RapidParts_HandwrittenNote.png)"
+      ]
+    },
+    "Bangalore IT Traders": {
+      "vendor_key": "bangalore it traders",
+      "names_seen": [
+        "B'lore IT Traders",
+        "Bangalore IT Traders"
+      ],
+      "files_in_precedence_order": [
+        {
+          "source_file": "12_BangaloreIT_RateCard_Photo.png",
+          "is_correction": false,
+          "is_revised": false,
+          "date": null,
+          "line_items": 11,
+          "overall_notes": "Rate card valid 'this week' only. Prices noted as exclusive of GST. Payment terms: Cash/UPI only. Note states 'Handwritten additions overleaf' implying additional items or corrections may exist on the back of the card, not captured here. Photo is taken at an angle causing visual row/column skew; item-to-price pairing was inferred using typical market price ranges for each product where visual alignment was ambiguous, and confidence lowered accordingly."
+        },
+        {
+          "source_file": "13_BangaloreIT_HandwrittenCorrection.png",
+          "is_correction": true,
+          "is_revised": false,
+          "date": null,
+          "line_items": 4,
+          "overall_notes": "Handwritten correction sheet for B'lore IT Traders quote. Note at bottom: 'confirm before PO - Kiran', indicating prices need confirmation before purchase order is issued. GST treatment not specified. Currency assumed INR based on 'Rs' notation."
+        }
+      ],
+      "freight_terms": [],
+      "supersession_log": [
+        "L19: 12_BangaloreIT_RateCard_Photo.png (8530) -> 13_BangaloreIT_HandwrittenCorrection.png (8200): handwritten correction overrides earlier document",
+        "L24: 12_BangaloreIT_RateCard_Photo.png (650) -> 13_BangaloreIT_HandwrittenCorrection.png (600): handwritten correction overrides earlier document"
+      ]
+    },
+    "SouthTech Enterprises": {
+      "vendor_key": "southtech enterprises",
+      "names_seen": [
+        "SouthTech Enterprises"
+      ],
+      "files_in_precedence_order": [
+        {
+          "source_file": "14_SouthTech_Quote.docx",
+          "is_correction": false,
+          "is_revised": false,
+          "date": null,
+          "line_items": 16,
+          "overall_notes": "GST 18% extra (exclusive of quoted prices). Payment terms: 30 days credit. Delivery within 10 working days in Bangalore. Minimum order quantity (MOQ) of 10 units applies per line item. Vendor states they can match any GPU price on bulk orders. PSUs, cabinets, coolers, monitors and peripherals are quoted in an attached rate card image that was not available in the text for extraction, so no line items could be created for these categories."
+        },
+        {
+          "source_file": "15_SouthTech_RateCard_Regional.png",
+          "is_correction": false,
+          "is_revised": false,
+          "date": null,
+          "line_items": 7,
+          "overall_notes": "Header indicates 'GST extra' meaning prices are exclusive of GST. Note in regional script (translated): 'Prices valid for 7 days.' Additional text: 'Minimum order 10 units per item.' No quote reference number was visible on the document. Currency symbol shown (ರೂ) is the Kannada Rupee symbol, assumed to represent INR."
+        }
+      ],
+      "freight_terms": [],
+      "supersession_log": []
+    }
+  },
+  "unmatched_vendor_lines": [
+    {
+      "vendor": "RapidParts",
+      "source_file": "09_RapidParts_Email.txt",
+      "vendor_description": "NVIDIA GeForce RTX 4060 8GB + NVIDIA GeForce RTX 4070 12GB (COMBO of both GPUs)",
+      "unit_price": 80850,
+      "currency": "INR",
+      "extraction_confidence": 0.75,
+      "mapping_confidence": 0.0,
+      "reason": "Bundle covering two different GPU models (RTX 4060 and RTX 4070), cannot map to a single canonical line.",
+      "source_snippet": "NVIDIA GeForce RTX 4060 8GB + NVIDIA GeForce RTX 4070 12GB (COMBO of both GPUs): Rs 80,850 for the pair"
+    }
+  ],
+  "errors": []
+}

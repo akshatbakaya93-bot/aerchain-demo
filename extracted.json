@@ -1,0 +1,1854 @@
+[
+  {
+    "source_file": "01_TechnoServe_Quote.xlsx",
+    "status": "ok",
+    "vendor_name": "TechnoServe Solutions Pvt Ltd",
+    "quote_ref": "TSS/Q/2026/0455",
+    "currency": "INR",
+    "gst_treatment": "exclusive",
+    "line_items": [
+      {
+        "description": "Intel Core i5-13400 Processor",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 18320,
+        "confidence": 0.95,
+        "source_snippet": "1\tIntel Core i5-13400 Processor\t20\t18320\t366400",
+        "notes": null
+      },
+      {
+        "description": "Intel Core i7-13700 Processor",
+        "quantity": 10,
+        "unit": null,
+        "unit_price": 31680,
+        "confidence": 0.95,
+        "source_snippet": "2\tIntel Core i7-13700 Processor\t10\t31680\t316800",
+        "notes": null
+      },
+      {
+        "description": "AMD Ryzen 5 7600 Processor",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 20300,
+        "confidence": 0.95,
+        "source_snippet": "3\tAMD Ryzen 5 7600 Processor\t15\t20300\t304500",
+        "notes": null
+      },
+      {
+        "description": "ASUS PRIME B760M-A Motherboard",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 12380,
+        "confidence": 0.95,
+        "source_snippet": "4\tASUS PRIME B760M-A Motherboard\t20\t12380\t247600",
+        "notes": null
+      },
+      {
+        "description": "MSI MAG B650 TOMAHAWK Motherboard",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 20790,
+        "confidence": 0.95,
+        "source_snippet": "5\tMSI MAG B650 TOMAHAWK Motherboard\t15\t20790\t311850",
+        "notes": null
+      },
+      {
+        "description": "Corsair Vengeance 16GB DDR5 5600MHz (1x16GB)",
+        "quantity": 40,
+        "unit": null,
+        "unit_price": 4750,
+        "confidence": 0.95,
+        "source_snippet": "6\tCorsair Vengeance 16GB DDR5 5600MHz (1x16GB)\t40\t4750\t190000",
+        "notes": null
+      },
+      {
+        "description": "Corsair Vengeance 32GB DDR5 5600MHz (kit of 2x16GB)",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 9110,
+        "confidence": 0.95,
+        "source_snippet": "7\tCorsair Vengeance 32GB DDR5 5600MHz (kit of 2x16GB)\t20\t9110\t182200",
+        "notes": null
+      },
+      {
+        "description": "Kingston Fury Beast 16GB DDR4 3200MHz",
+        "quantity": 30,
+        "unit": null,
+        "unit_price": 3170,
+        "confidence": 0.95,
+        "source_snippet": "8\tKingston Fury Beast 16GB DDR4 3200MHz\t30\t3170\t95100",
+        "notes": null
+      },
+      {
+        "description": "Samsung 970 EVO Plus 1TB NVMe SSD",
+        "quantity": 30,
+        "unit": null,
+        "unit_price": 6440,
+        "confidence": 0.95,
+        "source_snippet": "9\tSamsung 970 EVO Plus 1TB NVMe SSD\t30\t6440\t193200",
+        "notes": null
+      },
+      {
+        "description": "Samsung 980 PRO 2TB NVMe SSD",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 15340,
+        "confidence": 0.95,
+        "source_snippet": "10\tSamsung 980 PRO 2TB NVMe SSD\t15\t15340\t230100",
+        "notes": null
+      },
+      {
+        "description": "Crucial MX500 1TB SATA SSD",
+        "quantity": 25,
+        "unit": null,
+        "unit_price": 5150,
+        "confidence": 0.95,
+        "source_snippet": "11\tCrucial MX500 1TB SATA SSD\t25\t5150\t128750",
+        "notes": null
+      },
+      {
+        "description": "Seagate Barracuda 2TB HDD",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 4160,
+        "confidence": 0.95,
+        "source_snippet": "12\tSeagate Barracuda 2TB HDD\t20\t4160\t83200",
+        "notes": null
+      },
+      {
+        "description": "WD Blue 4TB HDD",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 6730,
+        "confidence": 0.95,
+        "source_snippet": "13\tWD Blue 4TB HDD\t15\t6730\t100950",
+        "notes": null
+      },
+      {
+        "description": "NVIDIA GeForce RTX 4060 8GB",
+        "quantity": 10,
+        "unit": null,
+        "unit_price": 30200,
+        "confidence": 0.95,
+        "source_snippet": "14\tNVIDIA GeForce RTX 4060 8GB\t10\t30200\t302000",
+        "notes": null
+      },
+      {
+        "description": "NVIDIA GeForce RTX 4070 12GB",
+        "quantity": 8,
+        "unit": null,
+        "unit_price": 51480,
+        "confidence": 0.95,
+        "source_snippet": "15\tNVIDIA GeForce RTX 4070 12GB\t8\t51480\t411840",
+        "notes": null
+      },
+      {
+        "description": "Corsair RM750e 750W 80+ Gold PSU",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 8420,
+        "confidence": 0.95,
+        "source_snippet": "16\tCorsair RM750e 750W 80+ Gold PSU\t20\t8420\t168400",
+        "notes": null
+      },
+      {
+        "description": "Cooler Master MWE 650W 80+ Bronze PSU",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 4750,
+        "confidence": 0.95,
+        "source_snippet": "17\tCooler Master MWE 650W 80+ Bronze PSU\t15\t4750\t71250",
+        "notes": null
+      },
+      {
+        "description": "NZXT H5 Flow Mid-Tower Cabinet",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 7420,
+        "confidence": 0.95,
+        "source_snippet": "18\tNZXT H5 Flow Mid-Tower Cabinet\t20\t7420\t148400",
+        "notes": null
+      },
+      {
+        "description": "Corsair 4000D Airflow Cabinet",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 8120,
+        "confidence": 0.95,
+        "source_snippet": "19\tCorsair 4000D Airflow Cabinet\t15\t8120\t121800",
+        "notes": null
+      },
+      {
+        "description": "Noctua NH-U12S CPU Air Cooler",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 5740,
+        "confidence": 0.95,
+        "source_snippet": "20\tNoctua NH-U12S CPU Air Cooler\t15\t5740\t86100",
+        "notes": null
+      },
+      {
+        "description": "Cooler Master Hyper 212 Black CPU Cooler",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 3170,
+        "confidence": 0.95,
+        "source_snippet": "21\tCooler Master Hyper 212 Black CPU Cooler\t20\t3170\t63400",
+        "notes": null
+      },
+      {
+        "description": "Dell P2422H 24-inch FHD Monitor",
+        "quantity": 25,
+        "unit": null,
+        "unit_price": 12380,
+        "confidence": 0.95,
+        "source_snippet": "22\tDell P2422H 24-inch FHD Monitor\t25\t12380\t309500",
+        "notes": null
+      },
+      {
+        "description": "LG 27QN600 27-inch QHD Monitor",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 21780,
+        "confidence": 0.95,
+        "source_snippet": "23\tLG 27QN600 27-inch QHD Monitor\t15\t21780\t326700",
+        "notes": null
+      },
+      {
+        "description": "Logitech K120 USB Keyboard",
+        "quantity": 50,
+        "unit": null,
+        "unit_price": 640,
+        "confidence": 0.95,
+        "source_snippet": "24\tLogitech K120 USB Keyboard\t50\t640\t32000",
+        "notes": null
+      },
+      {
+        "description": "Logitech MK270 Wireless Keyboard+Mouse Combo",
+        "quantity": 30,
+        "unit": null,
+        "unit_price": 1830,
+        "confidence": 0.95,
+        "source_snippet": "25\tLogitech MK270 Wireless Keyboard+Mouse Combo\t30\t1830\t54900",
+        "notes": null
+      },
+      {
+        "description": "Logitech B100 USB Mouse",
+        "quantity": 50,
+        "unit": null,
+        "unit_price": 450,
+        "confidence": 0.95,
+        "source_snippet": "26\tLogitech B100 USB Mouse\t50\t450\t22500",
+        "notes": null
+      },
+      {
+        "description": "TP-Link TG-3468 Gigabit PCIe Network Card",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 1090,
+        "confidence": 0.95,
+        "source_snippet": "27\tTP-Link TG-3468 Gigabit PCIe Network Card\t20\t1090\t21800",
+        "notes": null
+      },
+      {
+        "description": "Arctic MX-4 Thermal Paste 4g",
+        "quantity": 40,
+        "unit": null,
+        "unit_price": 540,
+        "confidence": 0.95,
+        "source_snippet": "28\tArctic MX-4 Thermal Paste 4g\t40\t540\t21600",
+        "notes": null
+      },
+      {
+        "description": "HDMI 2.1 Cable 2 meter",
+        "quantity": 60,
+        "unit": null,
+        "unit_price": 740,
+        "confidence": 0.95,
+        "source_snippet": "29\tHDMI 2.1 Cable 2 meter\t60\t740\t44400",
+        "notes": null
+      },
+      {
+        "description": "APC BX600C-IN 600VA UPS",
+        "quantity": 25,
+        "unit": null,
+        "unit_price": 3760,
+        "confidence": 0.95,
+        "source_snippet": "30\tAPC BX600C-IN 600VA UPS\t25\t3760\t94000",
+        "notes": null
+      }
+    ],
+    "overall_notes": "All prices in INR. GST @18% extra (not included in unit/amount prices). Freight extra at actuals. Sub Total: Rs 5,051,240; GST @18% to be added on top."
+  },
+  {
+    "source_file": "02_TechnoServe_Warranty.docx",
+    "status": "ok",
+    "vendor_name": "TechnoServe Solutions",
+    "quote_ref": "TSS/Q/2026/0455",
+    "currency": "unknown",
+    "gst_treatment": "unknown",
+    "line_items": [],
+    "overall_notes": "This document is an annexure covering warranty and terms only, with no priced line items. Warranty terms: CPUs, GPUs, motherboards and SSDs - 3 years standard manufacturer warranty. RAM modules - lifetime manufacturer warranty. Power supplies (PSU) - 5 years warranty. Monitors - 3 years onsite warranty. Peripherals, cables, thermal paste and UPS - 1 year warranty. Cabinets - 1 year warranty against manufacturing defects. Payment terms: 50% advance, balance on delivery. Delivery: 2-3 weeks from PO. Prices valid for 30 days from quotation date. Vendor states ISO 9001:2015 certified and authorised reseller for Intel, ASUS and Samsung."
+  },
+  {
+    "source_file": "03_TechnoServe_Questionnaire_Email.txt",
+    "status": "ok",
+    "vendor_name": "TechnoServe Solutions",
+    "quote_ref": null,
+    "currency": "unknown",
+    "gst_treatment": "unknown",
+    "line_items": [],
+    "overall_notes": "This document is a vendor qualification questionnaire response, not a price quotation. No line items, prices, or quantities are provided. Payment terms mentioned: 50% advance, 50% on delivery. Delivery lead time: 2 to 3 weeks. Vendor is ISO 9001:2015 certified (valid till Aug 2027). Authorised reseller for Intel, ASUS, Samsung; other brands via authorised distributors. Offers onsite warranty support in Bangalore for monitors and CPUs only. Annual turnover reported as Rs 42 Crore (FY 2024-25). Reference to RFQ-2026-CP-114 in subject line, but no quote_ref number provided by vendor."
+  },
+  {
+    "source_file": "04_CompuWorld_Quote_v1.pdf",
+    "status": "ok",
+    "vendor_name": "CompuWorld Distributors",
+    "quote_ref": "CWD-Q-2026-781",
+    "currency": "INR",
+    "gst_treatment": "inclusive",
+    "line_items": [
+      {
+        "description": "Intel Core i5-13400 Processor",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 22920,
+        "confidence": 0.95,
+        "source_snippet": "1 Intel Core i5-13400 Processor 20 22,920",
+        "notes": null
+      },
+      {
+        "description": "Intel Core i7-13700 Processor",
+        "quantity": 10,
+        "unit": null,
+        "unit_price": 39650,
+        "confidence": 0.95,
+        "source_snippet": "2 Intel Core i7-13700 Processor 10 39,650",
+        "notes": null
+      },
+      {
+        "description": "AMD Ryzen 5 7600 Processor",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 25390,
+        "confidence": 0.95,
+        "source_snippet": "3 AMD Ryzen 5 7600 Processor 15 25,390",
+        "notes": null
+      },
+      {
+        "description": "ASUS PRIME B760M-A Motherboard",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 15480,
+        "confidence": 0.95,
+        "source_snippet": "4 ASUS PRIME B760M-A Motherboard 20 15,480",
+        "notes": null
+      },
+      {
+        "description": "MSI MAG B650 TOMAHAWK Motherboard",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 26020,
+        "confidence": 0.95,
+        "source_snippet": "5 MSI MAG B650 TOMAHAWK Motherboard 15 26,020",
+        "notes": null
+      },
+      {
+        "description": "Corsair Vengeance 16GB DDR5 5600MHz (1x16GB)",
+        "quantity": 40,
+        "unit": null,
+        "unit_price": 5950,
+        "confidence": 0.95,
+        "source_snippet": "6 Corsair Vengeance 16GB DDR5 5600MHz (1x16GB) 40 5,950",
+        "notes": null
+      },
+      {
+        "description": "Corsair Vengeance 32GB DDR5 5600MHz (kit of 2x16GB)",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 11400,
+        "confidence": 0.95,
+        "source_snippet": "7 Corsair Vengeance 32GB DDR5 5600MHz (kit of 2x16GB) 20 11,400",
+        "notes": null
+      },
+      {
+        "description": "Kingston Fury Beast 16GB DDR4 3200MHz",
+        "quantity": 30,
+        "unit": null,
+        "unit_price": 3960,
+        "confidence": 0.95,
+        "source_snippet": "8 Kingston Fury Beast 16GB DDR4 3200MHz 30 3,960",
+        "notes": null
+      },
+      {
+        "description": "Samsung 970 EVO Plus 1TB NVMe SSD",
+        "quantity": 30,
+        "unit": null,
+        "unit_price": 8050,
+        "confidence": 0.95,
+        "source_snippet": "9 Samsung 970 EVO Plus 1TB NVMe SSD 30 8,050",
+        "notes": null
+      },
+      {
+        "description": "Samsung 980 PRO 2TB NVMe SSD",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 19210,
+        "confidence": 0.95,
+        "source_snippet": "10 Samsung 980 PRO 2TB NVMe SSD 15 19,210",
+        "notes": null
+      },
+      {
+        "description": "Crucial MX500 1TB SATA SSD",
+        "quantity": 25,
+        "unit": null,
+        "unit_price": 6440,
+        "confidence": 0.95,
+        "source_snippet": "11 Crucial MX500 1TB SATA SSD 25 6,440",
+        "notes": null
+      },
+      {
+        "description": "Seagate Barracuda 2TB HDD",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 5200,
+        "confidence": 0.95,
+        "source_snippet": "12 Seagate Barracuda 2TB HDD 20 5,200",
+        "notes": null
+      },
+      {
+        "description": "WD Blue 4TB HDD",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 8430,
+        "confidence": 0.95,
+        "source_snippet": "13 WD Blue 4TB HDD 15 8,430",
+        "notes": null
+      },
+      {
+        "description": "NVIDIA GeForce RTX 4060 8GB",
+        "quantity": 10,
+        "unit": null,
+        "unit_price": 38870,
+        "confidence": 0.95,
+        "source_snippet": "14 NVIDIA GeForce RTX 4060 8GB 10 38,870",
+        "notes": null
+      },
+      {
+        "description": "NVIDIA GeForce RTX 4070 12GB",
+        "quantity": 8,
+        "unit": null,
+        "unit_price": 66270,
+        "confidence": 0.95,
+        "source_snippet": "15 NVIDIA GeForce RTX 4070 12GB 8 66,270",
+        "notes": null
+      },
+      {
+        "description": "Corsair RM750e 750W 80+ Gold PSU",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 10530,
+        "confidence": 0.95,
+        "source_snippet": "16 Corsair RM750e 750W 80+ Gold PSU 20 10,530",
+        "notes": null
+      },
+      {
+        "description": "Cooler Master MWE 650W 80+ Bronze PSU",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 5950,
+        "confidence": 0.95,
+        "source_snippet": "17 Cooler Master MWE 650W 80+ Bronze PSU 15 5,950",
+        "notes": null
+      },
+      {
+        "description": "NZXT H5 Flow Mid-Tower Cabinet",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 9300,
+        "confidence": 0.95,
+        "source_snippet": "18 NZXT H5 Flow Mid-Tower Cabinet 20 9,300",
+        "notes": null
+      },
+      {
+        "description": "Corsair 4000D Airflow Cabinet",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 10160,
+        "confidence": 0.95,
+        "source_snippet": "19 Corsair 4000D Airflow Cabinet 15 10,160",
+        "notes": null
+      },
+      {
+        "description": "Noctua NH-U12S CPU Air Cooler",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 7190,
+        "confidence": 0.95,
+        "source_snippet": "20 Noctua NH-U12S CPU Air Cooler 15 7,190",
+        "notes": null
+      },
+      {
+        "description": "Cooler Master Hyper 212 Black CPU Cooler",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 3960,
+        "confidence": 0.95,
+        "source_snippet": "21 Cooler Master Hyper 212 Black CPU Cooler 20 3,960",
+        "notes": null
+      },
+      {
+        "description": "Dell P2422H 24-inch FHD Monitor",
+        "quantity": 25,
+        "unit": null,
+        "unit_price": 15480,
+        "confidence": 0.95,
+        "source_snippet": "22 Dell P2422H 24-inch FHD Monitor 25 15,480",
+        "notes": null
+      },
+      {
+        "description": "LG 27QN600 27-inch QHD Monitor",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 27260,
+        "confidence": 0.95,
+        "source_snippet": "23 LG 27QN600 27-inch QHD Monitor 15 27,260",
+        "notes": null
+      },
+      {
+        "description": "Logitech K120 USB Keyboard",
+        "quantity": 50,
+        "unit": null,
+        "unit_price": 800,
+        "confidence": 0.95,
+        "source_snippet": "24 Logitech K120 USB Keyboard 50 800",
+        "notes": null
+      },
+      {
+        "description": "Logitech MK270 Wireless Keyboard+Mouse Combo",
+        "quantity": 30,
+        "unit": null,
+        "unit_price": 2290,
+        "confidence": 0.95,
+        "source_snippet": "25 Logitech MK270 Wireless Keyboard+Mouse Combo 30 2,290",
+        "notes": null
+      },
+      {
+        "description": "Logitech B100 USB Mouse",
+        "quantity": 50,
+        "unit": null,
+        "unit_price": 550,
+        "confidence": 0.95,
+        "source_snippet": "26 Logitech B100 USB Mouse 50 550",
+        "notes": null
+      },
+      {
+        "description": "TP-Link TG-3468 Gigabit PCIe Network Card",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 1370,
+        "confidence": 0.95,
+        "source_snippet": "27 TP-Link TG-3468 Gigabit PCIe Network Card 20 1,370",
+        "notes": null
+      },
+      {
+        "description": "Arctic MX-4 Thermal Paste 4g",
+        "quantity": 40,
+        "unit": null,
+        "unit_price": 680,
+        "confidence": 0.95,
+        "source_snippet": "28 Arctic MX-4 Thermal Paste 4g 40 680",
+        "notes": null
+      },
+      {
+        "description": "HDMI 2.1 Cable 2 meter",
+        "quantity": 60,
+        "unit": null,
+        "unit_price": 930,
+        "confidence": 0.95,
+        "source_snippet": "29 HDMI 2.1 Cable 2 meter 60 930",
+        "notes": null
+      },
+      {
+        "description": "APC BX600C-IN 600VA UPS",
+        "quantity": 25,
+        "unit": null,
+        "unit_price": 4710,
+        "confidence": 0.95,
+        "source_snippet": "30 APC BX600C-IN 600VA UPS 25 4,710",
+        "notes": null
+      }
+    ],
+    "overall_notes": "All prices in INR, inclusive of 18% GST. Delivered to site, freight included. An additional volume discount of 5% applies on the total invoice value if the combined order exceeds Rs 5,00,000, adjusted at final invoicing. Prices valid for 15 days. Subject to stock availability."
+  },
+  {
+    "source_file": "05_CompuWorld_Quote_v2_REVISED.pdf",
+    "status": "ok",
+    "vendor_name": "CompuWorld Distributors",
+    "quote_ref": "CWD-Q-2026-781-R2",
+    "currency": "INR",
+    "gst_treatment": "inclusive",
+    "line_items": [
+      {
+        "description": "Intel Core i5-13400 Processor",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 22920,
+        "confidence": 0.95,
+        "source_snippet": "1 Intel Core i5-13400 Processor 20 22,920",
+        "notes": null
+      },
+      {
+        "description": "Intel Core i7-13700 Processor",
+        "quantity": 10,
+        "unit": null,
+        "unit_price": 39650,
+        "confidence": 0.95,
+        "source_snippet": "2 Intel Core i7-13700 Processor 10 39,650",
+        "notes": null
+      },
+      {
+        "description": "AMD Ryzen 5 7600 Processor",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 25390,
+        "confidence": 0.95,
+        "source_snippet": "3 AMD Ryzen 5 7600 Processor 15 25,390",
+        "notes": null
+      },
+      {
+        "description": "ASUS PRIME B760M-A Motherboard",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 15480,
+        "confidence": 0.95,
+        "source_snippet": "4 ASUS PRIME B760M-A Motherboard 20 15,480",
+        "notes": null
+      },
+      {
+        "description": "MSI MAG B650 TOMAHAWK Motherboard",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 26020,
+        "confidence": 0.95,
+        "source_snippet": "5 MSI MAG B650 TOMAHAWK Motherboard 15 26,020",
+        "notes": null
+      },
+      {
+        "description": "Corsair Vengeance 16GB DDR5 5600MHz (1x16GB)",
+        "quantity": 40,
+        "unit": null,
+        "unit_price": 5950,
+        "confidence": 0.95,
+        "source_snippet": "6 Corsair Vengeance 16GB DDR5 5600MHz (1x16GB) 40 5,950",
+        "notes": null
+      },
+      {
+        "description": "Corsair Vengeance 32GB DDR5 5600MHz (kit of 2x16GB)",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 11400,
+        "confidence": 0.95,
+        "source_snippet": "7 Corsair Vengeance 32GB DDR5 5600MHz (kit of 2x16GB) 20 11,400",
+        "notes": null
+      },
+      {
+        "description": "Kingston Fury Beast 16GB DDR4 3200MHz",
+        "quantity": 30,
+        "unit": null,
+        "unit_price": 3960,
+        "confidence": 0.95,
+        "source_snippet": "8 Kingston Fury Beast 16GB DDR4 3200MHz 30 3,960",
+        "notes": null
+      },
+      {
+        "description": "Samsung 970 EVO Plus 1TB NVMe SSD",
+        "quantity": 30,
+        "unit": null,
+        "unit_price": 8050,
+        "confidence": 0.95,
+        "source_snippet": "9 Samsung 970 EVO Plus 1TB NVMe SSD 30 8,050",
+        "notes": null
+      },
+      {
+        "description": "Samsung 980 PRO 2TB NVMe SSD",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 19210,
+        "confidence": 0.95,
+        "source_snippet": "10 Samsung 980 PRO 2TB NVMe SSD 15 19,210",
+        "notes": null
+      },
+      {
+        "description": "Crucial MX500 1TB SATA SSD",
+        "quantity": 25,
+        "unit": null,
+        "unit_price": 6440,
+        "confidence": 0.95,
+        "source_snippet": "11 Crucial MX500 1TB SATA SSD 25 6,440",
+        "notes": null
+      },
+      {
+        "description": "Seagate Barracuda 2TB HDD",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 5200,
+        "confidence": 0.95,
+        "source_snippet": "12 Seagate Barracuda 2TB HDD 20 5,200",
+        "notes": null
+      },
+      {
+        "description": "WD Blue 4TB HDD",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 8430,
+        "confidence": 0.95,
+        "source_snippet": "13 WD Blue 4TB HDD 15 8,430",
+        "notes": null
+      },
+      {
+        "description": "NVIDIA GeForce RTX 4060 8GB",
+        "quantity": 10,
+        "unit": null,
+        "unit_price": 35990,
+        "confidence": 0.9,
+        "source_snippet": "14 NVIDIA GeForce RTX 4060 8GB 10 35,990",
+        "notes": "This is a revised quote; GPU prices reduced from original CWD-Q-2026-781."
+      },
+      {
+        "description": "NVIDIA GeForce RTX 4070 12GB",
+        "quantity": 8,
+        "unit": null,
+        "unit_price": 61360,
+        "confidence": 0.9,
+        "source_snippet": "15 NVIDIA GeForce RTX 4070 12GB 8 61,360",
+        "notes": "This is a revised quote; GPU prices reduced from original CWD-Q-2026-781."
+      },
+      {
+        "description": "Corsair RM750e 750W 80+ Gold PSU",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 10530,
+        "confidence": 0.95,
+        "source_snippet": "16 Corsair RM750e 750W 80+ Gold PSU 20 10,530",
+        "notes": null
+      },
+      {
+        "description": "Cooler Master MWE 650W 80+ Bronze PSU",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 5950,
+        "confidence": 0.95,
+        "source_snippet": "17 Cooler Master MWE 650W 80+ Bronze PSU 15 5,950",
+        "notes": null
+      },
+      {
+        "description": "NZXT H5 Flow Mid-Tower Cabinet",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 9300,
+        "confidence": 0.95,
+        "source_snippet": "18 NZXT H5 Flow Mid-Tower Cabinet 20 9,300",
+        "notes": null
+      },
+      {
+        "description": "Corsair 4000D Airflow Cabinet",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 10160,
+        "confidence": 0.95,
+        "source_snippet": "19 Corsair 4000D Airflow Cabinet 15 10,160",
+        "notes": null
+      },
+      {
+        "description": "Noctua NH-U12S CPU Air Cooler",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 7190,
+        "confidence": 0.95,
+        "source_snippet": "20 Noctua NH-U12S CPU Air Cooler 15 7,190",
+        "notes": null
+      },
+      {
+        "description": "Cooler Master Hyper 212 Black CPU Cooler",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 3960,
+        "confidence": 0.95,
+        "source_snippet": "21 Cooler Master Hyper 212 Black CPU Cooler 20 3,960",
+        "notes": null
+      },
+      {
+        "description": "Dell P2422H 24-inch FHD Monitor",
+        "quantity": 25,
+        "unit": null,
+        "unit_price": 15480,
+        "confidence": 0.95,
+        "source_snippet": "22 Dell P2422H 24-inch FHD Monitor 25 15,480",
+        "notes": null
+      },
+      {
+        "description": "LG 27QN600 27-inch QHD Monitor",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 27260,
+        "confidence": 0.95,
+        "source_snippet": "23 LG 27QN600 27-inch QHD Monitor 15 27,260",
+        "notes": null
+      },
+      {
+        "description": "Logitech K120 USB Keyboard",
+        "quantity": 50,
+        "unit": null,
+        "unit_price": 800,
+        "confidence": 0.95,
+        "source_snippet": "24 Logitech K120 USB Keyboard 50 800",
+        "notes": null
+      },
+      {
+        "description": "Logitech MK270 Wireless Keyboard+Mouse Combo",
+        "quantity": 30,
+        "unit": null,
+        "unit_price": 2290,
+        "confidence": 0.95,
+        "source_snippet": "25 Logitech MK270 Wireless Keyboard+Mouse Combo 30 2,290",
+        "notes": null
+      },
+      {
+        "description": "Logitech B100 USB Mouse",
+        "quantity": 50,
+        "unit": null,
+        "unit_price": 550,
+        "confidence": 0.95,
+        "source_snippet": "26 Logitech B100 USB Mouse 50 550",
+        "notes": null
+      },
+      {
+        "description": "TP-Link TG-3468 Gigabit PCIe Network Card",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 1370,
+        "confidence": 0.95,
+        "source_snippet": "27 TP-Link TG-3468 Gigabit PCIe Network Card 20 1,370",
+        "notes": null
+      },
+      {
+        "description": "Arctic MX-4 Thermal Paste 4g",
+        "quantity": 40,
+        "unit": null,
+        "unit_price": 680,
+        "confidence": 0.95,
+        "source_snippet": "28 Arctic MX-4 Thermal Paste 4g 40 680",
+        "notes": null
+      },
+      {
+        "description": "HDMI 2.1 Cable 2 meter",
+        "quantity": 60,
+        "unit": null,
+        "unit_price": 930,
+        "confidence": 0.95,
+        "source_snippet": "29 HDMI 2.1 Cable 2 meter 60 930",
+        "notes": null
+      },
+      {
+        "description": "APC BX600C-IN 600VA UPS",
+        "quantity": 25,
+        "unit": null,
+        "unit_price": 4710,
+        "confidence": 0.95,
+        "source_snippet": "30 APC BX600C-IN 600VA UPS 25 4,710",
+        "notes": null
+      }
+    ],
+    "overall_notes": "All prices in INR, inclusive of 18% GST. Delivered to site, freight included. An additional volume discount of 5% applies on the total invoice value if the combined order exceeds Rs 5,00,000, adjusted at final invoicing. This REVISED quote (CWD-Q-2026-781-R2) supersedes CWD-Q-2026-781 dated 13-Mar; GPU prices reduced. Prices valid for 15 days. Subject to stock availability."
+  },
+  {
+    "source_file": "06_CompuWorld_Questionnaire.docx",
+    "status": "ok",
+    "vendor_name": "CompuWorld Distributors",
+    "quote_ref": null,
+    "currency": "unknown",
+    "gst_treatment": "unknown",
+    "line_items": [],
+    "overall_notes": "This document is a qualification/vendor questionnaire, not a price quotation. No line items, prices, or quantities are provided. Key details: ISO 9001 certification not yet obtained (in process, expected Q3 2026); authorised reseller for Corsair, Crucial, MSI only, with GPUs sourced via grey-market imports; delivery lead time 7-10 days ex-stock; payment terms require 100% advance for first order, credit terms available from 2nd order onward; no onsite support in Bangalore, only carry-in service centre."
+  },
+  {
+    "source_file": "07_Nexus_Quote_USD.xlsx",
+    "status": "ok",
+    "vendor_name": "NEXUS SYSTEMS (Singapore)",
+    "quote_ref": "NXS-EXP-2026-233",
+    "currency": "USD",
+    "gst_treatment": "unknown",
+    "line_items": [
+      {
+        "description": "Intel Core i5-13400 Processor",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 225.99,
+        "confidence": 0.9,
+        "source_snippet": "Intel Core i5-13400 Processor\t20\t225.99",
+        "notes": null
+      },
+      {
+        "description": "Intel Core i7-13700 Processor",
+        "quantity": 10,
+        "unit": null,
+        "unit_price": 390.9,
+        "confidence": 0.9,
+        "source_snippet": "Intel Core i7-13700 Processor\t10\t390.9",
+        "notes": null
+      },
+      {
+        "description": "AMD Ryzen 5 7600 Processor",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 250.42,
+        "confidence": 0.9,
+        "source_snippet": "AMD Ryzen 5 7600 Processor\t15\t250.42",
+        "notes": null
+      },
+      {
+        "description": "PRIME B760M-A",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 152.69,
+        "confidence": 0.85,
+        "source_snippet": "PRIME B760M-A\t20\t152.69",
+        "notes": "Item code only, no descriptive text provided by vendor"
+      },
+      {
+        "description": "7D75-001R",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 256.53,
+        "confidence": 0.8,
+        "source_snippet": "7D75-001R\t15\t256.53",
+        "notes": "Item code only, product identity not clear from description"
+      },
+      {
+        "description": "CMK16GX5M1B5600C36",
+        "quantity": 40,
+        "unit": null,
+        "unit_price": 58.68,
+        "confidence": 0.8,
+        "source_snippet": "CMK16GX5M1B5600C36\t40\t58.68",
+        "notes": "Item code only, likely a Corsair RAM module"
+      },
+      {
+        "description": "CMK32GX5M2B5600C36",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 112.34,
+        "confidence": 0.8,
+        "source_snippet": "CMK32GX5M2B5600C36\t20\t112.34",
+        "notes": "Item code only, likely a Corsair RAM kit"
+      },
+      {
+        "description": "KF432C16BB/16",
+        "quantity": 30,
+        "unit": null,
+        "unit_price": 39.04,
+        "confidence": 0.8,
+        "source_snippet": "KF432C16BB/16\t30\t39.04",
+        "notes": "Item code only, likely a Kingston RAM module"
+      },
+      {
+        "description": "MZ-V7S1T0BW",
+        "quantity": 30,
+        "unit": null,
+        "unit_price": 79.4,
+        "confidence": 0.8,
+        "source_snippet": "MZ-V7S1T0BW\t30\t79.4",
+        "notes": "Item code only, likely a Samsung SSD"
+      },
+      {
+        "description": "MZ-V8P2T0BW",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 189.34,
+        "confidence": 0.8,
+        "source_snippet": "MZ-V8P2T0BW\t15\t189.34",
+        "notes": "Item code only, likely a Samsung SSD"
+      },
+      {
+        "description": "CT1000MX500SSD1",
+        "quantity": 25,
+        "unit": null,
+        "unit_price": 63.47,
+        "confidence": 0.8,
+        "source_snippet": "CT1000MX500SSD1\t25\t63.47",
+        "notes": "Item code only, likely a Crucial SSD"
+      },
+      {
+        "description": "Seagate Barracuda 2TB HDD",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 51.26,
+        "confidence": 0.9,
+        "source_snippet": "Seagate Barracuda 2TB HDD\t20\t51.26",
+        "notes": null
+      },
+      {
+        "description": "WD Blue 4TB HDD",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 83.11,
+        "confidence": 0.9,
+        "source_snippet": "WD Blue 4TB HDD\t15\t83.11",
+        "notes": null
+      },
+      {
+        "description": "RTX4060-8G",
+        "quantity": 10,
+        "unit": null,
+        "unit_price": 372.57,
+        "confidence": 0.85,
+        "source_snippet": "RTX4060-8G\t10\t372.57",
+        "notes": "Item code only, likely an RTX 4060 8GB graphics card"
+      },
+      {
+        "description": "RTX4070-12G",
+        "quantity": 8,
+        "unit": null,
+        "unit_price": 635.21,
+        "confidence": 0.85,
+        "source_snippet": "RTX4070-12G\t8\t635.21",
+        "notes": "Item code only, likely an RTX 4070 12GB graphics card"
+      },
+      {
+        "description": "CP-9020248-UK",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 103.83,
+        "confidence": 0.75,
+        "source_snippet": "CP-9020248-UK\t20\t103.83",
+        "notes": "Item code only, product identity unclear (possibly a Corsair PSU)"
+      },
+      {
+        "description": "Cooler Master MWE 650W 80+ Bronze PSU",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 58.68,
+        "confidence": 0.9,
+        "source_snippet": "Cooler Master MWE 650W 80+ Bronze PSU\t15\t58.68",
+        "notes": null
+      },
+      {
+        "description": "NZXT H5 Flow Mid-Tower Cabinet",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 91.62,
+        "confidence": 0.9,
+        "source_snippet": "NZXT H5 Flow Mid-Tower Cabinet\t20\t91.62",
+        "notes": null
+      },
+      {
+        "description": "Corsair 4000D Airflow Cabinet",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 100.12,
+        "confidence": 0.9,
+        "source_snippet": "Corsair 4000D Airflow Cabinet\t15\t100.12",
+        "notes": null
+      },
+      {
+        "description": "Noctua NH-U12S CPU Air Cooler",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 70.9,
+        "confidence": 0.9,
+        "source_snippet": "Noctua NH-U12S CPU Air Cooler\t15\t70.9",
+        "notes": null
+      },
+      {
+        "description": "Cooler Master Hyper 212 Black CPU Cooler",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 39.04,
+        "confidence": 0.9,
+        "source_snippet": "Cooler Master Hyper 212 Black CPU Cooler\t20\t39.04",
+        "notes": null
+      },
+      {
+        "description": "210-BBYP",
+        "quantity": 25,
+        "unit": null,
+        "unit_price": 152.69,
+        "confidence": 0.75,
+        "source_snippet": "210-BBYP\t25\t152.69",
+        "notes": "Item code only, product identity unclear (possibly a Dell part number)"
+      },
+      {
+        "description": "LG 27QN600 27-inch QHD Monitor",
+        "quantity": 15,
+        "unit": null,
+        "unit_price": 268.74,
+        "confidence": 0.9,
+        "source_snippet": "LG 27QN600 27-inch QHD Monitor\t15\t268.74",
+        "notes": null
+      },
+      {
+        "description": "Logitech K120 USB Keyboard",
+        "quantity": 50,
+        "unit": null,
+        "unit_price": 7.9,
+        "confidence": 0.9,
+        "source_snippet": "Logitech K120 USB Keyboard\t50\t7.9",
+        "notes": null
+      },
+      {
+        "description": "Logitech MK270 Wireless Keyboard+Mouse Combo",
+        "quantity": 30,
+        "unit": null,
+        "unit_price": 22.63,
+        "confidence": 0.9,
+        "source_snippet": "Logitech MK270 Wireless Keyboard+Mouse Combo\t30\t22.63",
+        "notes": null
+      },
+      {
+        "description": "Logitech B100 USB Mouse",
+        "quantity": 50,
+        "unit": null,
+        "unit_price": 5.51,
+        "confidence": 0.9,
+        "source_snippet": "Logitech B100 USB Mouse\t50\t5.51",
+        "notes": null
+      },
+      {
+        "description": "TP-Link TG-3468 Gigabit PCIe Network Card",
+        "quantity": 20,
+        "unit": null,
+        "unit_price": 13.41,
+        "confidence": 0.9,
+        "source_snippet": "TP-Link TG-3468 Gigabit PCIe Network Card\t20\t13.41",
+        "notes": null
+      },
+      {
+        "description": "APC BX600C-IN 600VA UPS",
+        "quantity": 25,
+        "unit": null,
+        "unit_price": 46.47,
+        "confidence": 0.9,
+        "source_snippet": "APC BX600C-IN 600VA UPS\t25\t46.47",
+        "notes": null
+      }
+    ],
+    "overall_notes": "Quotation from NEXUS SYSTEMS (Singapore), Ref: NXS-EXP-2026-233, currency USD. Prices quoted are FOB Singapore, with freight and duty extra (not included). No mention of GST/tax treatment in the document, so gst_treatment set to unknown. No payment terms, validity period, warranty, or discount information provided in the document."
+  },
+  {
+    "source_file": "08_Nexus_Questionnaire.pdf",
+    "status": "ok",
+    "vendor_name": "Nexus Systems",
+    "quote_ref": null,
+    "currency": "unknown",
+    "gst_treatment": "unknown",
+    "line_items": [],
+    "overall_notes": "This document is a vendor questionnaire, not a price quotation. It contains no line items, quantities, unit prices, or currency information. Key details captured: ISO 9001:2015 and ISO 14001 certified; Authorised distributor for NVIDIA, Samsung, Kingston (APAC); Lead time 3-4 weeks (import + customs clearance); Payment terms - Letter of Credit or 100% TT advance; No onsite support in Bangalore, RMA handled via India logistics partner."
+  },
+  {
+    "source_file": "09_RapidParts_Email.txt",
+    "status": "ok",
+    "vendor_name": "RapidParts",
+    "quote_ref": null,
+    "currency": "INR",
+    "gst_treatment": "unknown",
+    "line_items": [
+      {
+        "description": "Intel Core i5-13400 Processor",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 17940,
+        "confidence": 0.9,
+        "source_snippet": "Intel Core i5-13400 Processor: Rs 17,940 each",
+        "notes": null
+      },
+      {
+        "description": "Intel Core i7-13700 Processor",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 31360,
+        "confidence": 0.9,
+        "source_snippet": "Intel Core i7-13700 Processor: Rs 31,360",
+        "notes": null
+      },
+      {
+        "description": "AMD Ryzen 5 7600 Processor",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 20090,
+        "confidence": 0.9,
+        "source_snippet": "AMD Ryzen 5 7600 Processor: Rs 20,090",
+        "notes": null
+      },
+      {
+        "description": "ASUS PRIME B760M-A Motherboard",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 12250,
+        "confidence": 0.9,
+        "source_snippet": "ASUS PRIME B760M-A Motherboard: Rs 12,250",
+        "notes": null
+      },
+      {
+        "description": "MSI MAG B650 TOMAHAWK Motherboard",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 20580,
+        "confidence": 0.9,
+        "source_snippet": "MSI MAG B650 TOMAHAWK Motherboard: Rs 20,580",
+        "notes": null
+      },
+      {
+        "description": "Corsair Vengeance 16GB DDR5 5600MHz (1x16GB)",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 4700,
+        "confidence": 0.9,
+        "source_snippet": "Corsair Vengeance 16GB DDR5 5600MHz (1x16GB): Rs 4,700",
+        "notes": null
+      },
+      {
+        "description": "Corsair Vengeance 32GB DDR5 5600MHz (kit of 2x16GB)",
+        "quantity": null,
+        "unit": "kit",
+        "unit_price": 9020,
+        "confidence": 0.9,
+        "source_snippet": "Corsair Vengeance 32GB DDR5 5600MHz (kit of 2x16GB): Rs 9,020",
+        "notes": null
+      },
+      {
+        "description": "Kingston Fury Beast 16GB DDR4 3200MHz",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 3140,
+        "confidence": 0.9,
+        "source_snippet": "Kingston Fury Beast 16GB DDR4 3200MHz: Rs 3,140",
+        "notes": null
+      },
+      {
+        "description": "Samsung 970 EVO Plus 1TB NVMe SSD",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 6370,
+        "confidence": 0.9,
+        "source_snippet": "Samsung 970 EVO Plus 1TB NVMe SSD: Rs 6,370",
+        "notes": null
+      },
+      {
+        "description": "Samsung 980 PRO 2TB NVMe SSD",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 15190,
+        "confidence": 0.9,
+        "source_snippet": "Samsung 980 PRO 2TB NVMe SSD: Rs 15,190",
+        "notes": null
+      },
+      {
+        "description": "Crucial MX500 1TB SATA SSD",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 5100,
+        "confidence": 0.9,
+        "source_snippet": "Crucial MX500 1TB SATA SSD: Rs 5,100",
+        "notes": null
+      },
+      {
+        "description": "Seagate Barracuda 2TB HDD",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 4120,
+        "confidence": 0.9,
+        "source_snippet": "Seagate Barracuda 2TB HDD: Rs 4,120",
+        "notes": null
+      },
+      {
+        "description": "WD Blue 4TB HDD",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 6660,
+        "confidence": 0.9,
+        "source_snippet": "WD Blue 4TB HDD: Rs 6,660",
+        "notes": null
+      },
+      {
+        "description": "NVIDIA GeForce RTX 4060 8GB + NVIDIA GeForce RTX 4070 12GB (COMBO of both GPUs)",
+        "quantity": 1,
+        "unit": "pair",
+        "unit_price": 80850,
+        "confidence": 0.75,
+        "source_snippet": "NVIDIA GeForce RTX 4060 8GB + NVIDIA GeForce RTX 4070 12GB (COMBO of both GPUs): Rs 80,850 for the pair",
+        "notes": "Price is for a bundled pair of two different GPU models, not a per-unit price for either individually."
+      },
+      {
+        "description": "Corsair RM750e 750W 80+ Gold PSU",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 8330,
+        "confidence": 0.9,
+        "source_snippet": "Corsair RM750e 750W 80+ Gold PSU: Rs 8,330",
+        "notes": null
+      },
+      {
+        "description": "Cooler Master MWE 650W 80+ Bronze PSU",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 4700,
+        "confidence": 0.9,
+        "source_snippet": "Cooler Master MWE 650W 80+ Bronze PSU: Rs 4,700",
+        "notes": null
+      },
+      {
+        "description": "NZXT H5 Flow Mid-Tower Cabinet",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 7350,
+        "confidence": 0.9,
+        "source_snippet": "NZXT H5 Flow Mid-Tower Cabinet: Rs 7,350",
+        "notes": null
+      },
+      {
+        "description": "Corsair 4000D Airflow Cabinet",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 8040,
+        "confidence": 0.9,
+        "source_snippet": "Corsair 4000D Airflow Cabinet: Rs 8,040",
+        "notes": null
+      },
+      {
+        "description": "Dell P2422H 24-inch FHD Monitor",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 12250,
+        "confidence": 0.9,
+        "source_snippet": "Dell P2422H 24-inch FHD Monitor: Rs 12,250",
+        "notes": null
+      },
+      {
+        "description": "LG 27QN600 27-inch QHD Monitor",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 21560,
+        "confidence": 0.9,
+        "source_snippet": "LG 27QN600 27-inch QHD Monitor: Rs 21,560",
+        "notes": null
+      },
+      {
+        "description": "Logitech K120 USB Keyboard",
+        "quantity": null,
+        "unit": null,
+        "unit_price": null,
+        "confidence": 0.2,
+        "source_snippet": "Logitech K120 USB Keyboard: same as last year",
+        "notes": "Price stated as 'same as last year' but the actual prior price is not given in this document; cannot be determined."
+      },
+      {
+        "description": "Logitech MK270 Wireless Keyboard+Mouse Combo",
+        "quantity": null,
+        "unit": null,
+        "unit_price": null,
+        "confidence": 0.2,
+        "source_snippet": "Logitech MK270 Wireless Keyboard+Mouse Combo: same as last year",
+        "notes": "Price stated as 'same as last year' but the actual prior price is not given in this document; cannot be determined."
+      },
+      {
+        "description": "Logitech B100 USB Mouse",
+        "quantity": null,
+        "unit": null,
+        "unit_price": null,
+        "confidence": 0.2,
+        "source_snippet": "Logitech B100 USB Mouse: same as last year",
+        "notes": "Price stated as 'same as last year' but the actual prior price is not given in this document; cannot be determined."
+      },
+      {
+        "description": "Arctic MX-4 Thermal Paste 4g",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 540,
+        "confidence": 0.9,
+        "source_snippet": "Arctic MX-4 Thermal Paste 4g: Rs 540",
+        "notes": null
+      },
+      {
+        "description": "HDMI 2.1 Cable 2 meter",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 740,
+        "confidence": 0.9,
+        "source_snippet": "HDMI 2.1 Cable 2 meter: Rs 740",
+        "notes": null
+      },
+      {
+        "description": "APC BX600C-IN 600VA UPS",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 3720,
+        "confidence": 0.9,
+        "source_snippet": "APC BX600C-IN 600VA UPS: Rs 3,720",
+        "notes": null
+      }
+    ],
+    "overall_notes": "Email states 'rates below, rest same as last year. freight extra as usual.' meaning freight/shipping is not included in quoted prices. Prices may change if order is delayed beyond the week the quote was sent (no explicit expiry date given). Vendor mentions a 'keyboards/mice combo deal available ask us' - details not specified. Vendor also offers a 'no gst bill option' implying GST treatment of the quoted prices is ambiguous/unclear - could not determine if listed prices are inclusive or exclusive of GST. Three items (Logitech K120, MK270, B100) have no stated price, only 'same as last year', which is not resolvable from this document alone."
+  },
+  {
+    "source_file": "10_RapidParts_FreightNote.txt",
+    "status": "ok",
+    "vendor_name": "RapidParts",
+    "quote_ref": null,
+    "currency": "INR",
+    "gst_treatment": "unknown",
+    "line_items": [],
+    "overall_notes": "Prices quoted are ex-godown Bangalore. Freight to buyer site charged extra at actuals, approx Rs 3,500-Rs 6,000 depending on total volume. No formal warranty on grey-market GPUs. Prices held only till end of this week. Document contains only freight/terms information; no specific line items, quantities, or unit prices for products are provided."
+  },
+  {
+    "source_file": "11_RapidParts_HandwrittenNote.png",
+    "status": "ok",
+    "vendor_name": "RapidParts",
+    "quote_ref": null,
+    "currency": "INR",
+    "gst_treatment": "unknown",
+    "line_items": [
+      {
+        "description": "Corsair RM750e PSU",
+        "quantity": null,
+        "unit": "pc",
+        "unit_price": 8300,
+        "confidence": 0.9,
+        "source_snippet": "Corsair RM750e PSU  -  Rs 8,300 /pc",
+        "notes": null
+      },
+      {
+        "description": "Cooler Master 650W",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 4650,
+        "confidence": 0.75,
+        "source_snippet": "Cooler Master 650W  -  4,650",
+        "notes": "No unit specified; assumed per piece based on context of adjacent PSU line."
+      },
+      {
+        "description": "NZXT H5 Flow cabinet",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 7400,
+        "confidence": 0.8,
+        "source_snippet": "NZXT H5 Flow cabinet - 7,400 (only 6 in stock)",
+        "notes": "Stock limited to 6 units; no unit label given, assumed per piece."
+      },
+      {
+        "description": "Noctua NH-U12S",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 5900,
+        "confidence": 0.8,
+        "source_snippet": "Noctua NH-U12S  ->  5,900",
+        "notes": "No unit label given, assumed per piece."
+      },
+      {
+        "description": "thermal paste MX-4",
+        "quantity": null,
+        "unit": "tube",
+        "unit_price": 520,
+        "confidence": 0.9,
+        "source_snippet": "thermal paste MX-4  -  Rs 520 per tube",
+        "notes": null
+      },
+      {
+        "description": "HDMI cable 2m",
+        "quantity": null,
+        "unit": "pc",
+        "unit_price": 700,
+        "confidence": 0.75,
+        "source_snippet": "HDMI cable 2m  -  700 (box of 10 = 6500)",
+        "notes": "Alternate bulk pricing given: box of 10 = 6500 (i.e., 650/unit), differing from single-unit price of 700; both figures noted for clarity."
+      }
+    ],
+    "overall_notes": "Note at bottom states 'rest same as quoted. - S', implying all other terms (pricing, freight, payment, validity) follow a previous/original quotation not included in this document. No GST treatment, freight terms, or validity period specified in this extra items note."
+  },
+  {
+    "source_file": "12_BangaloreIT_RateCard_Photo.png",
+    "status": "ok",
+    "vendor_name": "Bangalore IT Traders",
+    "quote_ref": null,
+    "currency": "INR",
+    "gst_treatment": "exclusive",
+    "line_items": [
+      {
+        "description": "Corsair RM750e 750W PSU",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 8760,
+        "confidence": 0.75,
+        "source_snippet": "Corsair RM750e 750W PSU ... 8,760",
+        "notes": "Photo taken at an angle; row/column alignment inferred based on typical market pricing rather than strict visual position."
+      },
+      {
+        "description": "Cooler Master MWE 650W",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 4900,
+        "confidence": 0.7,
+        "source_snippet": "Cooler Master MWE 650W ... 4,900 ... MOQ 10",
+        "notes": "MOQ 10 noted next to this row; alignment inferred due to image skew."
+      },
+      {
+        "description": "NZXT H5 Flow Cabinet",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 7580,
+        "confidence": 0.75,
+        "source_snippet": "NZXT H5 Flow Cabinet ... 7,580",
+        "notes": null
+      },
+      {
+        "description": "Corsair 4000D Airflow",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 8530,
+        "confidence": 0.75,
+        "source_snippet": "Corsair 4000D Airflow ... 8,530",
+        "notes": null
+      },
+      {
+        "description": "Cooler Master Hyper 212",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 3140,
+        "confidence": 0.65,
+        "source_snippet": "Cooler Master Hyper 212 ... 3,140",
+        "notes": "Price seems higher than typical market rate for this cooler; possible misalignment due to photo skew."
+      },
+      {
+        "description": "Dell P2422H 24in Monitor",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 12750,
+        "confidence": 0.75,
+        "source_snippet": "Dell P2422H 24in Monitor ... 12,750",
+        "notes": null
+      },
+      {
+        "description": "LG 27QN600 27in QHD",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 22660,
+        "confidence": 0.7,
+        "source_snippet": "LG 27QN600 27in QHD ... 22,660 ... MOQ 5",
+        "notes": "MOQ 5 noted next to this row."
+      },
+      {
+        "description": "Logitech K120 Keyboard",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 650,
+        "confidence": 0.75,
+        "source_snippet": "Logitech K120 Keyboard ... 650",
+        "notes": null
+      },
+      {
+        "description": "Logitech B100 Mouse",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 450,
+        "confidence": 0.75,
+        "source_snippet": "Logitech B100 Mouse ... 450",
+        "notes": null
+      },
+      {
+        "description": "APC 600VA UPS",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 3880,
+        "confidence": 0.75,
+        "source_snippet": "APC 600VA UPS ... 3,880",
+        "notes": null
+      },
+      {
+        "description": "TP-Link Gigabit NIC",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 1160,
+        "confidence": 0.65,
+        "source_snippet": "TP-Link Gigabit NIC ... 1,160",
+        "notes": "This is the last price on the card with no clearly aligned item beneath it in the photo; alignment inferred from typical row order."
+      }
+    ],
+    "overall_notes": "Rate card valid 'this week' only. Prices noted as exclusive of GST. Payment terms: Cash/UPI only. Note states 'Handwritten additions overleaf' implying additional items or corrections may exist on the back of the card, not captured here. Photo is taken at an angle causing visual row/column skew; item-to-price pairing was inferred using typical market price ranges for each product where visual alignment was ambiguous, and confidence lowered accordingly."
+  },
+  {
+    "source_file": "13_BangaloreIT_HandwrittenCorrection.png",
+    "status": "ok",
+    "vendor_name": "B'lore IT Traders",
+    "quote_ref": null,
+    "currency": "INR",
+    "gst_treatment": "unknown",
+    "line_items": [
+      {
+        "description": "Corsair 4000D cabinet",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 8200,
+        "confidence": 0.85,
+        "source_snippet": "Corsair 4000D cabinet:      8,500  8,200",
+        "notes": "Original price 8,500 was struck through and corrected to 8,200; using corrected value."
+      },
+      {
+        "description": "RTX 4060 now available",
+        "quantity": 2,
+        "unit": "pc",
+        "unit_price": 32330,
+        "confidence": 0.85,
+        "source_snippet": "RTX 4060 now available:    32,330 /pc (2 pcs only)",
+        "notes": "Only 2 pcs available per vendor note; limited stock."
+      },
+      {
+        "description": "Logitech MK270 combo",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 1850,
+        "confidence": 0.9,
+        "source_snippet": "Logitech MK270 combo:      Rs 1,850",
+        "notes": null
+      },
+      {
+        "description": "K120 kbd price",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 600,
+        "confidence": 0.8,
+        "source_snippet": "K120 kbd price ->   640  600 (bulk)",
+        "notes": "Original price 640 struck through and corrected to 600, labeled as bulk price; quantity for bulk pricing not specified."
+      }
+    ],
+    "overall_notes": "Handwritten correction sheet for B'lore IT Traders quote. Note at bottom: 'confirm before PO - Kiran', indicating prices need confirmation before purchase order is issued. GST treatment not specified. Currency assumed INR based on 'Rs' notation."
+  },
+  {
+    "source_file": "14_SouthTech_Quote.docx",
+    "status": "ok",
+    "vendor_name": "SouthTech Enterprises",
+    "quote_ref": "STE/2026/CP/09",
+    "currency": "INR",
+    "gst_treatment": "exclusive",
+    "line_items": [
+      {
+        "description": "Intel Core i5-13400",
+        "quantity": null,
+        "unit": "unit",
+        "unit_price": 18200,
+        "confidence": 0.7,
+        "source_snippet": "the Intel Core i5-13400 is offered at Rs 18,200 per unit for orders up to 15 units",
+        "notes": "Tiered pricing: this rate applies for orders up to 15 units; a lower rate of Rs 17,600 applies for 16+ units (see separate line)."
+      },
+      {
+        "description": "Intel Core i5-13400",
+        "quantity": null,
+        "unit": "unit",
+        "unit_price": 17600,
+        "confidence": 0.7,
+        "source_snippet": "Rs 17,600 per unit for 16 units and above",
+        "notes": "Tiered pricing: this rate applies for orders of 16 units or more; base rate up to 15 units is Rs 18,200 (see separate line)."
+      },
+      {
+        "description": "Intel Core i7-13700",
+        "quantity": null,
+        "unit": "each",
+        "unit_price": 31500,
+        "confidence": 0.9,
+        "source_snippet": "The Intel Core i7-13700 is Rs 31,500 each.",
+        "notes": null
+      },
+      {
+        "description": "AMD Ryzen 5 7600",
+        "quantity": null,
+        "unit": "piece",
+        "unit_price": 20000,
+        "confidence": 0.9,
+        "source_snippet": "AMD Ryzen 5 7600 comes to Rs 20,000 a piece.",
+        "notes": null
+      },
+      {
+        "description": "ASUS PRIME B760M-A",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 12300,
+        "confidence": 0.9,
+        "source_snippet": "the ASUS PRIME B760M-A is Rs 12,300",
+        "notes": null
+      },
+      {
+        "description": "MSI B650 Tomahawk",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 20600,
+        "confidence": 0.9,
+        "source_snippet": "the MSI B650 Tomahawk is Rs 20,600",
+        "notes": null
+      },
+      {
+        "description": "Corsair Vengeance 16GB DDR5",
+        "quantity": null,
+        "unit": "single stick",
+        "unit_price": 4700,
+        "confidence": 0.85,
+        "source_snippet": "the Corsair Vengeance 16GB DDR5 stick is Rs 4,700 (note: this is per single stick, not a kit)",
+        "notes": "Explicitly noted by vendor as per single stick, not a kit."
+      },
+      {
+        "description": "Corsair Vengeance 32GB (kit)",
+        "quantity": null,
+        "unit": "kit",
+        "unit_price": 9000,
+        "confidence": 0.75,
+        "source_snippet": "the 32GB kit is Rs 9,000",
+        "notes": "Product line/series (Corsair Vengeance) inferred from preceding sentence context; not explicitly restated."
+      },
+      {
+        "description": "Kingston Fury 16GB DDR4",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 3100,
+        "confidence": 0.9,
+        "source_snippet": "Kingston Fury 16GB DDR4 is Rs 3,100",
+        "notes": null
+      },
+      {
+        "description": "Samsung 970 EVO Plus 1TB",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 6400,
+        "confidence": 0.9,
+        "source_snippet": "Samsung 970 EVO Plus 1TB is Rs 6,400",
+        "notes": null
+      },
+      {
+        "description": "Samsung 980 Pro 2TB",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 15200,
+        "confidence": 0.9,
+        "source_snippet": "Samsung 980 Pro 2TB is Rs 15,200",
+        "notes": null
+      },
+      {
+        "description": "Crucial MX500 1TB",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 5050,
+        "confidence": 0.9,
+        "source_snippet": "Crucial MX500 1TB is Rs 5,050",
+        "notes": null
+      },
+      {
+        "description": "Seagate 2TB",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 4150,
+        "confidence": 0.9,
+        "source_snippet": "Seagate 2TB Rs 4,150",
+        "notes": "Category noted as 'Hard drives' in source text."
+      },
+      {
+        "description": "WD Blue 4TB",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 6700,
+        "confidence": 0.9,
+        "source_snippet": "WD Blue 4TB Rs 6,700",
+        "notes": "Category noted as 'Hard drives' in source text."
+      },
+      {
+        "description": "RTX 4060",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 30000,
+        "confidence": 0.9,
+        "source_snippet": "The RTX 4060 is Rs 30,000",
+        "notes": null
+      },
+      {
+        "description": "RTX 4070",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 51000,
+        "confidence": 0.9,
+        "source_snippet": "RTX 4070 Rs 51,000",
+        "notes": "Vendor states GPU price can be matched/negotiated on bulk orders."
+      }
+    ],
+    "overall_notes": "GST 18% extra (exclusive of quoted prices). Payment terms: 30 days credit. Delivery within 10 working days in Bangalore. Minimum order quantity (MOQ) of 10 units applies per line item. Vendor states they can match any GPU price on bulk orders. PSUs, cabinets, coolers, monitors and peripherals are quoted in an attached rate card image that was not available in the text for extraction, so no line items could be created for these categories."
+  },
+  {
+    "source_file": "15_SouthTech_RateCard_Regional.png",
+    "status": "ok",
+    "vendor_name": "SouthTech Enterprises",
+    "quote_ref": null,
+    "currency": "INR",
+    "gst_treatment": "exclusive",
+    "line_items": [
+      {
+        "description": "PSU Corsair RM750e",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 8670,
+        "confidence": 0.9,
+        "source_snippet": "PSU Corsair RM750e — ರೂ 8,670",
+        "notes": null
+      },
+      {
+        "description": "Cabinet NZXT H5",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 7500,
+        "confidence": 0.9,
+        "source_snippet": "Cabinet NZXT H5 — ರೂ 7,500",
+        "notes": null
+      },
+      {
+        "description": "Monitor Dell 24\"",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 12620,
+        "confidence": 0.9,
+        "source_snippet": "Monitor Dell 24\" — ರೂ 12,620",
+        "notes": null
+      },
+      {
+        "description": "Monitor LG 27\"",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 22440,
+        "confidence": 0.9,
+        "source_snippet": "Monitor LG 27\" — ರೂ 22,440",
+        "notes": null
+      },
+      {
+        "description": "Keyboard Logitech K120",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 650,
+        "confidence": 0.9,
+        "source_snippet": "Keyboard Logitech K120 — ರೂ 650",
+        "notes": null
+      },
+      {
+        "description": "Mouse Logitech B100",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 450,
+        "confidence": 0.9,
+        "source_snippet": "Mouse Logitech B100 — ರೂ 450",
+        "notes": null
+      },
+      {
+        "description": "UPS APC 600VA",
+        "quantity": null,
+        "unit": null,
+        "unit_price": 3840,
+        "confidence": 0.9,
+        "source_snippet": "UPS APC 600VA — ರೂ 3,840",
+        "notes": null
+      }
+    ],
+    "overall_notes": "Header indicates 'GST extra' meaning prices are exclusive of GST. Note in regional script (translated): 'Prices valid for 7 days.' Additional text: 'Minimum order 10 units per item.' No quote reference number was visible on the document. Currency symbol shown (ರೂ) is the Kannada Rupee symbol, assumed to represent INR."
+  }
+]
